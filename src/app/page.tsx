@@ -2,15 +2,18 @@
 import Image from 'next/image'
 import React from 'react'
 import bg from '../../public/images/bg.png'
+import side1 from '../../public/images/side1.png'
 import abt1 from '../../public/images/abt1.png'
 import abt2 from '../../public/images/abt2.png'
 import abt3 from '../../public/images/abt3.png'
 import salit from '../../public/images/salit.png'
 import { Sparkles, Tally1 } from 'lucide-react'
+
+
 import { Button } from '@/components/ui/button'
 import AbtTheme from '@/components/theme/AbtTheme'
-
-
+import FoodMenu from '@/components/theme/FoodMenu'
+import Member from '@/components/theme/Member'
 
 
 export default function Home() {
@@ -19,7 +22,7 @@ export default function Home() {
     <div className='w-full h-auto md:mt-10 md:grid md:grid-cols-2 flex flex-col-reverse mt-2'>
 
 {/* grid 1 */}
-<div className='w-full  md:ml-10 ml-5'>
+<div className='w-full  md:ml-10 ml-2'>
 <h2 id='myfont' className='text-green-800'> Healthy & Tasty Food <hr className='md:w-20 w-5 -mt-2 ml-64 border border-green-800'/></h2>
 <h1 className='flex flex-row md:text-4xl text-2xl md:font-bold font-semibold mt-4 md:mt-10'>Enjoy Healthy Life 
  <br  /> & Tasty Food. <Sparkles className='text-green-600'/> 
@@ -35,7 +38,7 @@ export default function Home() {
 {/* grid 2 */}
 <div className='relative'>
 
-<Image src={bg} alt='' width={500} height={500} className='relative  md:w-[700px] md:h-500px] md:-mr-28 md:-mt-10 -z-10 top-0 '/>
+<Image src={bg} alt='' width={500} height={500} className='relative md:w-[700px] w-[280px] md:h-[500px] md:-mr-28 md:-mt-10 -z-10 top-0 '/>
 
 <div className='flex flex-row'>
 
@@ -62,9 +65,9 @@ export default function Home() {
 </div>
 <AbtTheme/>
 
-
-
-
+<FoodMenu/>
+<Image src={side1} alt='' width={100} height={100} className='relative md:left-[1160px] left-[180px] top-12'/>
+<Member />
 
 
 

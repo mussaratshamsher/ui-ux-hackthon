@@ -135,4 +135,16 @@ body {
   font-family: "Dancing Script";
   font-size:xx-large;
 }
+#bg{
+  background: rgba(255, 255, 255, 0.963);
+}
 
+#border{
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px rgb(227, 230, 234),
+  2px 2px 20px rgb(227, 230, 234);
+}
+
+#footer{
+background: rgb(211, 214, 210);
+}

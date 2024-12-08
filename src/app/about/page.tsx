@@ -8,7 +8,10 @@ import choose from '../../../public/images/choose.png'
 import Student from '../../../public/images/Student.png'
 import Person from '../../../public/images/Person.png'
 import Coffee from '../../../public/images/Coffee.png'
-import abt1 from '../../../public/images/abt1.png'
+import Member from '@/components/theme/Member'
+import clientest from '../../../public/images/clientest.png'
+import FoodMenu from '@/components/theme/FoodMenu'
+
 
 
 export default function page() {
@@ -61,16 +64,52 @@ export default function page() {
 
 {/* Members */}
 
-<div className='bg-green-500 md:h-[350px] h-[100px]'>
-<Image src={abt1} alt="" width={500} height={500} className='w-80 h-80 md:ml-[450px] relative opacity-20 '/>
+<Member />
+
+{/* Testimonials */}
+
+<div className=' h-auto w-full mb-20' >
+
+<h2 id='myfont' className='text-green-800 mt-28 mb-10 ml-10'> Testimonials 
+  <hr className='md:w-10 w-5 -mt-5 ml-40 border border-green-800'/></h2>
+
+<h1 className='text-center text-2xl font-semibold'>What our Client are saying</h1>
+<div className='w-[600px] h-[400px] mt-20 md:ml-[300px] mb-10' id='border'>
+<Image src={clientest} alt='' width={500} height={500} className=' absolute w-20 h-20 ml-[270px] -mt-10'/>
+<br />
+<h2 className='font-mono text-center text-3xl mt-10' id='clr'>99</h2>
+
+<p className='p-10 pt-4 pb-4'>It is a long established fact that a reader will be distracted by the readable content of a page
+   when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of 
+   letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+
+<h1 id='clr' className='text-center'>
+<i className='bx bxs-star'></i><i className='bx bxs-star'></i><i className='bx bxs-star'></i>
+  <i className='bx bxs-star'></i> <i className='bx bxs-star text-gray-400' ></i>
+</h1>
+<h1 className='text-center text-2xl font-bold mt-5 mb-5'>Ali Hassan</h1>
+<p className='text-center mt-5 mb-5'> Food Specialist</p>
+
+
+</div>
+
+
+{/* food Menu  */}
+
+<FoodMenu/>
+
+</div>
+
+
+
+
 </div>
 
 
 
 
 
-
-</div>     
+    
    
   )
 }
