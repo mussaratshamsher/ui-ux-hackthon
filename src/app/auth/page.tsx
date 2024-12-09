@@ -16,7 +16,7 @@ export default function Auth(){
   };  
 
   return (  
-    <div className="flex items-center justify-center h-auto md:mt-20 mt-10" >  
+    <div className="flex items-center justify-center h-auto md:mt-20 mt-10 mb-4" >  
       <div className="w-full max-w-md p-6 bg-transparent rounded-lg shadow-xl ">  
         <h2 className="mb-6 text-2xl font-bold text-center">{isLogin ? 'Login' : 'Sign Up'}</h2>  
 
