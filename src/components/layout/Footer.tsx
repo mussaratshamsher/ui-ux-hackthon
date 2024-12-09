@@ -14,7 +14,7 @@ import fside2 from "../../../public/images/fside2.png"
 
 export default function Footer() {
   return (
-    <div className='w-full absolute md:h-[400px] h-auto md:p-20 p-3' id='footer'>
+    <div className='w-full absolute h-auto md:p-20 p-3' id='footer'>
 
 <div className='grid grid-cols-1 md:grid-cols-4'>
 
@@ -67,14 +67,14 @@ export default function Footer() {
     
 
 </div>
-<Image src={fside2} alt='' width={100} height={100} className='absolute left-[1150px] '/>
+<Image src={fside2} alt='' width={100} height={100} className='absolute left-[1150px] hidden'/>
 
 
 {/* <div className=' md:w-[1170px] bg-green-700 text-white flex justify-around absolute p-4 mt-24 -z-10'>
 <p>@Designed by Mussarat Shamsher</p>
 <p>privacy Policy Terms of Use Partner</p>
 </div> */}
-<Image src={fside1} alt='' width={100} height={100} className='absolute top-20 left-4'/>
+<Image src={fside1} alt='' width={100} height={100} className='absolute top-20 md:left-4 left-48'/>
 
     </div>
   )
