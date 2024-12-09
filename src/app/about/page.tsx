@@ -16,10 +16,10 @@ import FoodMenu from '@/components/theme/FoodMenu'
 
 export default function page() {
   return (
-    <div className='w-full h-auto'>
+    <div className=' h-auto'>
 
 {/* landing page */}
-<div className='w-full h-[200px] text-green-500' >
+<div className=' h-[200px] text-green-500' >
 <h1 className='absolute mt-10 md:mt-20 text-2xl md:text-5xl z- md:ml-[500px]'>About Us</h1>
 <Image src={themebg} alt='' width={500} height={500} className='w-full md:h-[250px] h-[100px] relative -z-10'/>
 <div className='flex flex-row justify-center -mt-20 md:ml-40 '><Link href='/'>Home<i className='bx bx-chevron-right '></i>  </Link>
@@ -68,7 +68,7 @@ export default function page() {
 
 {/* Testimonials */}
 
-<div className=' h-auto w-full mb-20' >
+<div className=' h-auto mb-20' >
 
 <h2 id='myfont' className='text-green-800 mt-28 mb-10 ml-10'> Testimonials 
   <hr className='md:w-10 w-5 -mt-5 ml-40 border border-green-800'/></h2>

@@ -70,10 +70,10 @@ export default function Footer() {
 <Image src={fside2} alt='' width={100} height={100} className='absolute left-[1150px] '/>
 
 
-<div className=' w-[1170px] bg-green-700 text-white flex justify-around absolute p-4 mt-24 -z-10'>
-<p>@copyright-All copy rights reserved</p>
+{/* <div className=' md:w-[1170px] bg-green-700 text-white flex justify-around absolute p-4 mt-24 -z-10'>
+<p>@Designed by Mussarat Shamsher</p>
 <p>privacy Policy Terms of Use Partner</p>
-</div>
+</div> */}
 <Image src={fside1} alt='' width={100} height={100} className='absolute top-20 left-4'/>
 
     </div>

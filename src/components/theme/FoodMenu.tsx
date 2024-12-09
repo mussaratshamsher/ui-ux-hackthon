@@ -5,7 +5,7 @@ import React from 'react'
 export default function FoodMenu() {
   return (
     <div >
-        <div className='w-full h-auto md:mt-5'>
+        <div className='h-auto md:mt-5'>
         <h1 className='text-center md:text-4xl text-2xl font-bold md:mt-20 mt-5'>Our Food Menu</h1>
         <p className=' mb:mt-5 mt-2 mb-5 p-2 md:text-center'> Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots 
             in a piece of classical Latin literature from 45 BC,</p>
@@ -19,7 +19,7 @@ export default function FoodMenu() {
                 <li className='hover:text-green-800 hover:underline'>Snack</li>
               
              </ul>
-             <hr className='md:w-[900px] w-[200px] ml-4 mr-3 md:ml-28 md:mr-28 border border-gray-500 mb-10'/>
+             <hr className='w-[200px] md:w-[900px] ml-4 mr-3 md:ml-28 md:mr-28 border border-gray-500 mb-10'/>
 
 {/* Menu List  */}
              <div className=' grid grid-cols-1 md:grid-cols-2 md:grid-rows-4 text-black md:mt-10 mt-4 ml-2 md:ml-5 md:mr-5 md:p-10'>
