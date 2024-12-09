@@ -48,7 +48,7 @@ export default function Auth(){
 
         <button  
           onClick={toggleForm}  
-          className="mt-4 text-sm text-white hover:underline">  
+          className="mt-4 text-sm hover:underline">  
           {isLogin ? "Don't have an account? Sign Up" : 'Already have an account? Login'}  
         </button> 
 
