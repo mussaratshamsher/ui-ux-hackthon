@@ -14,7 +14,7 @@ export default function Contact() {
 
         {/* landing page */}
 <div className=' h-[200px] text-green-500' >
-<h1 className='absolute mt-10 ml-5 md:mt-20 text-2xl md:text-5xl z- md:ml-[500px] ml-5'>Contact Us</h1>
+<h1 className='absolute mt-10 md:mt-20 text-2xl md:text-5xl z- md:ml-[500px] ml-5'>Contact Us</h1>
 <Image src={themebg} alt='' width={500} height={500} className='w-full md:h-[250px] h-[100px] relative -z-10'/>
 <div className='flex flex-row justify-center -mt-20 md:ml-40 '><Link href='/'>Home<i className='bx bx-chevron-right '></i>  </Link>
  <Link href='./../contact' className='text-white'> Contact</Link></div>

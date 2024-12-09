@@ -2,10 +2,12 @@
 "use client"
 
 
+import Image from 'next/image';
+import Link from 'next/link';
 import React, { useState } from 'react';  
 
-
-  
+import themebg from "../../../public/images/themebg.png"  
+import { User } from 'lucide-react';
 
 export default function Auth(){
  
@@ -16,14 +18,25 @@ export default function Auth(){
   };  
 
   return (  
-    <div className="flex items-center justify-center h-auto md:mt-20 mt-10 mb-4" >  
+    <div>
+
+ {/* landing page */}
+ <div className=' h-[200px] text-green-500' >
+<h1 className='absolute mt-10 md:mt-20 text-2xl md:text-5xl z- md:ml-[500px] ml-5'> Login/Signup</h1>
+<Image src={themebg} alt='' width={500} height={500} className='w-full md:h-[250px] h-[100px] relative -z-10'/>
+<div className='flex flex-row justify-center -mt-20 md:ml-40 '><Link href='/'>Home<i className='bx bx-chevron-right '></i>  </Link>
+ <Link href='./../auth' className='text-white'><i className='bx bx-user'></i> Login/Signup</Link></div>
+</div> 
+
+
+    <div className="flex items-center justify-center h-auto md:mt-20 mt-10 mb-4" > 
       <div className="w-full max-w-md p-6 bg-transparent rounded-lg shadow-xl ">  
         <h2 className="mb-6 text-2xl font-bold text-center">{isLogin ? 'Login' : 'Sign Up'}</h2>  
 
 
         <form> 
 
-        <div className="mb-4">  
+        <div className="mb-4 mt-3">  
              <input  type="email"  required className="block w-full px-4 py-3 border " placeholder='Name'/>  
           </div>  
 
@@ -65,6 +78,6 @@ export default function Auth(){
 
       </div>  
     </div>  
-
+    </div>
   );  
 };  
