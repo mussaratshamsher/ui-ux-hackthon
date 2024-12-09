@@ -42,7 +42,7 @@ export default function Home() {
 {/* grid 2 */}
 <div className='relative'>
 
-<Image src={bg} alt='' width={500} height={500} className='relative md:w-[700px] w-[280px] md:h-[500px] md:-mr-28 md:-mt-10 -z-10 top-0 '/>
+<Image src={bg} alt='' width={500} height={500} className='relative md:w-[700px] w-[300px] md:h-[500px] md:-mr-28 md:-mt-10 -z-10 top-0 '/>
 
 <div className='flex flex-row'>
 
