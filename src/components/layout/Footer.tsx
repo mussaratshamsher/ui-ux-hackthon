@@ -9,6 +9,7 @@ import f5 from "../../../public/images/f5.png"
 import f6 from "../../../public/images/f6.png"
 import fside1 from "../../../public/images/fside1.png"
 import fside2 from "../../../public/images/fside2.png"
+import Link from 'next/link'
 
 
 
@@ -41,12 +42,15 @@ export default function Footer() {
 
 <div>
 <h1 className='font-bold  text-1xl mb-5'>Links</h1>  
+
 <ul>
-    <li className='mt-2'>About Us</li>
-<li className='mt-2'>Contact us</li>
-<li className='mt-2'>Our Menu</li>
-<li className='mt-2'>Team</li>
-<li className='mt-2'>FAQ</li></ul>
+<li><Link href="./" className='mt-2'>Home</Link></li>
+<li><Link href="./../about" className='mt-2'>About Us</Link></li>
+<li><Link href="./../contact" className='mt-2'>Contact</Link></li>
+<li><Link href="./../menu" className='mt-2'>Our Menu</Link></li>
+<li><Link href="./../team" className='mt-2'>Team</Link></li>
+<li><Link href="./../faq" className='mt-2'>FAQ</Link></li>
+</ul>
 </div>
 
 <div>

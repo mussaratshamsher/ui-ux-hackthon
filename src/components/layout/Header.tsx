@@ -83,10 +83,10 @@ export default function Header() {
 
                 <ul className="md:flex md:flex-row gap-5 hidden">  
                     <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="/">Home</Link></li>  
-                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="/">Menu</Link></li>  
-                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="/">Blog</Link></li>  
-                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="/">Page</Link></li>  
-                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="/">Shop</Link></li>  
+                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../">Menu</Link></li>  
+                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../">Blog</Link></li>  
+                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../">Page</Link></li>  
+                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../">Shop</Link></li>  
                     <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../about">About</Link></li>  
                     <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../contact">Contact</Link></li>  
                 </ul>  
@@ -102,10 +102,10 @@ export default function Header() {
                     <SheetContent className="absolute left-0">  {/* Align items to the right */}  
                         <ul className="flex flex-col gap-4"> {/* Use flex for vertical stacking */}  
                             <li className='hover:underline hover:decoration-green-700'><Link href="/">Home</Link></li>  
-                            <li className='hover:underline hover:decoration-green-700'><Link href="/">Menu</Link></li>  
-                            <li className='hover:underline hover:decoration-green-700'><Link href="/">Blog</Link></li>  
-                            <li className='hover:underline hover:decoration-green-700'><Link href="/">Page</Link></li>  
-                            <li className='hover:underline hover:decoration-green-700'><Link href="/">Shop</Link></li>  
+                            <li className='hover:underline hover:decoration-green-700'><Link href="./../">Menu</Link></li>  
+                            <li className='hover:underline hover:decoration-green-700'><Link href="./../">Blog</Link></li>  
+                            <li className='hover:underline hover:decoration-green-700'><Link href="./../">Page</Link></li>  
+                            <li className='hover:underline hover:decoration-green-700'><Link href="./../">Shop</Link></li>  
                             <li className='hover:underline hover:decoration-green-700'><Link href="./../about">About</Link></li>  
                             <li className='hover:underline hover:decoration-green-700'><Link href="./../contact">Contact</Link></li>  
                         </ul>  

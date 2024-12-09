@@ -97,6 +97,9 @@ body {
   font-size: 0.875rem;  
   padding-left: 100%; 
 }  
+#client{
+  animation: scroll 5s linear infinite;   
+}
 
 @keyframes scroll {  
   0% {  

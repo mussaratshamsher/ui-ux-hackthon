@@ -16,7 +16,7 @@ import FoodMenu from '@/components/theme/FoodMenu'
 
 export default function page() {
   return (
-    <div className=' h-auto'>
+    <div className='h-auto'>
 
 {/* landing page */}
 <div className=' h-[200px] text-green-500' >
@@ -32,7 +32,7 @@ export default function page() {
 {/* Choose Us */}
 <div className='text-center text-black'>
 
-  <h1 className='text-4xl mb-5 p-4 '><b>Why Choose Us</b></h1>
+  <h1 className='text-4xl mb-5 mt-5 '><b>Why Choose Us</b></h1>
   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
      make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
@@ -42,7 +42,7 @@ export default function page() {
 
 </div>
 
-<div className='grid md:grid-cols-3 grid-cols-1 md:p-32 mt-5'>
+<div className='grid md:grid-cols-3 grid-cols-1 mt-5 md:pl-32 md:pr-32 '>
 
   <div className='text-center'>
   <Image src={Student} alt='' width={500} height={500} className='w-20 h-20 ml-32' />
