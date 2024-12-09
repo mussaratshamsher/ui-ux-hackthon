@@ -14,6 +14,8 @@ import { Button } from '@/components/ui/button'
 import AbtTheme from '@/components/theme/AbtTheme'
 import FoodMenu from '@/components/theme/FoodMenu'
 import Member from '@/components/theme/Member'
+import FoodCategory from '@/components/theme/FoodCategory'
+import ChooseUs from '@/components/theme/ChooseUs'
 
 
 export default function Home() {
@@ -62,6 +64,8 @@ export default function Home() {
 </div>
 <AbtTheme/>
 
+<FoodCategory/>
+<ChooseUs/>
 <FoodMenu/>
 <Image src={side1} alt='' width={100} height={100} className='relative md:left-[1160px] left-[180px] top-12'/>
 <Member />

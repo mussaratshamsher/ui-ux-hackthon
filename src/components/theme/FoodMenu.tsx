@@ -1,13 +1,14 @@
 
 
 import React from 'react'
+import { Button } from '../ui/button'
 
 export default function FoodMenu() {
   return (
     <div >
         <div className='h-auto md:mt-5'>
-        <h1 className='text-center md:text-4xl text-2xl font-bold md:mt-20 mt-5'>Our Food Menu</h1>
-        <p className=' mb:mt-5 mt-2 mb-5 p-2 md:text-center'> Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots 
+        <h1 className='md:text-center md:text-4xl text-1xl font-bold md:mt-20 mt-5'>Our Food Menu</h1>
+        <p className=' mb:mt-5 mt-2 mb-5 p-2 md:md:text-center w-[250px]'> Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots 
             in a piece of classical Latin literature from 45 BC,</p>
              
              <ul className='flex flex-row md:gap-5 gap-2 md:justify-center md:items-center text-black text-xs md:font-medium'>
@@ -27,8 +28,8 @@ export default function FoodMenu() {
 <div className='menu1'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='md:w-96 border border-gray-400 mb-2 mt-2'/>
-<p className='mt-2 mb-2'>Tesseted French bread topped with myonese, cheddar</p>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
+<p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
 
@@ -36,8 +37,8 @@ export default function FoodMenu() {
 <div className='menu2'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='md:w-96 border border-gray-400 mb-2 mt-2'/>
-<p className='mt-2 mb-2'>Tesseted French bread topped with myonese, cheddar</p>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
+<p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
 
@@ -45,8 +46,8 @@ export default function FoodMenu() {
 <div className='menu3'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='md:w-96 border border-gray-400 mb-2 mt-2'/>
-<p className='mt-2 mb-2'>Tesseted French bread topped with myonese, cheddar</p>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
+<p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
 
@@ -54,8 +55,8 @@ export default function FoodMenu() {
 <div className='menu4'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='md:w-96 border border-gray-400 mb-2 mt-2'/>
-<p className='mt-2 mb-2'>Tesseted French bread topped with myonese, cheddar</p>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
+<p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
 
@@ -63,8 +64,8 @@ export default function FoodMenu() {
 <div className='menu5'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='md:w-96 border border-gray-400 mb-2 mt-2'/>
-<p className='mt-2 mb-2'>Tesseted French bread topped with myonese, cheddar</p>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
+<p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
 
@@ -72,8 +73,8 @@ export default function FoodMenu() {
 <div className='menu6'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='md:w-96 border border-gray-400 mb-2 mt-2'/>
-<p className='mt-2 mb-2'>Tesseted French bread topped with myonese, cheddar</p>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
+<p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
 
@@ -82,7 +83,7 @@ export default function FoodMenu() {
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
   <hr className='md:w-96 border border-gray-400 mb-2 mt-2'/>
-<p className='mt-2 mb-2'>Tesseted French bread topped with myonese, cheddar</p>
+<p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
 
@@ -90,8 +91,8 @@ export default function FoodMenu() {
 <div className='menu8'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='md:w-96 border border-gray-400 mb-2 mt-2'/>
-<p className='mt-2 mb-2'>Tesseted French bread topped with myonese, cheddar</p>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
+<p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
 
@@ -102,7 +103,7 @@ export default function FoodMenu() {
 
              </div>
 
-
+             <Button variant={'ghost'} className='md:ml-[500px] ml-10'>View more</Button>
 
 
 

@@ -30,10 +30,12 @@ export default function AbtTheme() {
 
 
 <div className=' md:ml-28 ml-3'>
-<h2 id='myfont' className='text-green-800 md:mt-28'> About Us <hr className='md:w-10 w-5 -mt-5 md:ml-32 ml-20 border border-green-800'/></h2>
+<h2 id='myfont' className='text-green-800 md:mt-40'> About Us <hr className='md:w-10 w-5 -mt-5 md:ml-32 ml-20 border border-green-800'/></h2>
 <h1 className='flex flex-row md:text-4xl text-1xl md:font-bold font-semibold mt-4 md:mt-10'>Enjoy Healthy Life 
  <br  /> & Tasty Food.  </h1>
-<p className='mt-10'>Lorem Ipsum is simply dummy text of dummy text of <br />the printing and type setting industry. </p>
+<p className='mt-10 p-3 text-center'>Lorem Ipsum is simply dummy text of dummy text of the printing and type setting industry.
+Lorem Ipsum is simply dummy text of dummy text of the printing and type setting industry.Lorem Ipsum is simply
+ dummy text of dummy text of the printing and type setting industry. </p>
 
 <div className='grid grid-cols-1 md:grid-cols-2  mt-5 md:ml-14 ml-2'>
   <Button >Show more</Button> <Button variant={'ghost'}>Watch Videos</Button> </div>
