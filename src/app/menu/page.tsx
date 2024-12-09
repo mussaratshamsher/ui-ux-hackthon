@@ -145,10 +145,10 @@ export default function Menu() {
 
 
  {/* center theme  */}
-<div className='bg-black mt-10'>
-<Image src={choose} alt='' width={500} height={500} className='w-full md:h-[250px] h-[400px] opacity-20'/>
+<div className='bg-black mt-10 w-auto'>
+<Image src={choose} alt='' width={500} height={500} className='w-auto md:w-full md:h-[250px] h-[400px] opacity-20'/>
     
-    <div className='grid grid-cols-1 md:grid-cols-4 md:gap-20 text-white absolute md:ml-72 md:-mt-44 -mt-96 ml-10'>
+    <div className='grid grid-cols-1 md:grid-cols-4 md:gap-20 text-white absolute md:ml-72 md:-mt-44 -mt-96 ml-20'>
      <div> 
         <ChefHat className='text-green-600 font-extrabold'/>
         <h1 className='text-2xl -ml-2'> 420</h1>

@@ -16,7 +16,7 @@ export default function Bestpeople() {
 <h2 id='myfont' className='text-green-800 mt-28 mb-10 ml-10'> Testimonials </h2>
 <h1 className='text-center mt-2 md:text-2xl text-xs font-semibold'>What our Clients are saying</h1>
 
-<div className='grid grid-cols-1 md:grid-cols-6 p-5 md:ml- md:mb-5 mb-2' >
+<div className='grid grid-cols-1 md:grid-cols-6 p-5 ml-10 md:mb-5 mb-2' >
 
 <Image src={partnr1} alt='' width={500} height={500} className='w-20 h-20' />
 
