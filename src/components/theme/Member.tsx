@@ -33,7 +33,7 @@ export default function Member() {
     <p className='text-center'>Founder</p>
     </div>
     
-    {/* member 4 */}
+    {/* member 2 */}
     <div className='bg-slate-100'>
     <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64'/>
     

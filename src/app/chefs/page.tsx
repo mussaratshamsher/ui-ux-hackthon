@@ -23,7 +23,7 @@ export default function Chefs() {
 <h1 className='absolute mt-10 md:mt-20 text-2xl md:text-5xl z- ml-5 md:ml-[500px]'>Our Chef</h1>
 <Image src={themebg} alt='' width={500} height={500} className='w-full md:h-[250px] h-[100px] relative -z-10'/>
 <div className='flex flex-row justify-center -mt-20 md:ml-40 '><Link href='/'>Home<i className='bx bx-chevron-right '></i>  </Link>
- <Link href='./../chef' className='text-white'> Chef </Link></div>
+ <Link href='./../chefs' className='text-white'> Chef </Link></div>
 </div>
 
 {/* title  */}
@@ -36,26 +36,26 @@ export default function Chefs() {
 
   {/* row 1 */}
 
-<div>
-    <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
+<div className=''>
+    <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64  data-aos="zoom-in"'/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 
-    <div>
-    <Image src={chef1} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
-    <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
-    <p className='text-center'>Founder</p>
-    </div>
-
-    <div >
-    <Image src={chef2} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
+    <div className=''>
+    <Image src={chef1} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-  data-aos="zoom-in"'/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 
     <div >
-    <Image src={chef3} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
+    <Image src={chef2} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64 '/>
+    <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
+    <p className='text-center'>Founder</p>
+    </div>
+
+    <div >
+    <Image src={chef3} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64 '/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>

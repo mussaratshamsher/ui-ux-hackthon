@@ -32,10 +32,10 @@ export default function ChooseUs() {
 <div className='md:pr-28 '>
 <h2 id='myfont' className='text-green-800 mt-10 md:mt-14 ml-5'> Why Choose Us <hr className='md:w-10 w-5 -mt-5 md:ml-32 ml-20 border border-green-800'/></h2>
 <h1 className='text-1xl md:text-3xl font-bold md:mt-5 mt-3 ml-3'>Why We are the best?</h1>
-<p className='mt-5 ml-2'>Lorem Ipsum is simply dummy text of dummy text of the printing and type setting industry.
+<p className='mt-5 ml-2 w-90'>Lorem Ipsum is simply dummy text of dummy text of the printing and type setting industry.
 Lorem Ipsum is simply dummy text of dummy text of the printing and type setting industry.Lorem Ipsum is simply</p>
 <br />
-<p className='ml-2'>Lorem Ipsum is simply dummy text of dummy text of the printing and type setting industry.
+<p className='ml-2 w-90'>Lorem Ipsum is simply dummy text of dummy text of the printing and type setting industry.
 Lorem Ipsum is simply dummy text </p>
 
 {/* OPTIONS  */}

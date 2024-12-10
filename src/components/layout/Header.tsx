@@ -41,8 +41,8 @@ export default function Header() {
                         {isOpen && (   
                             <ul className="absolute bg-white w-28 shadow-md mt-1 rounded-lg p-2 z-10 text-xs">  
                                 <li className='hover:underline hover:decoration-green-700'><Link href="./../chefs">Our chef</Link></li>  
-                                <li className='hover:underline hover:decoration-green-700'><Link href="./../shop">Shop</Link></li>  
-                                <li className='hover:underline hover:decoration-green-700'><Link href="./../page3">Page 3</Link></li>  
+                                <li className='hover:underline hover:decoration-green-700'><Link href="./../shop">Shop details</Link></li>  
+                                <li className='hover:underline hover:decoration-green-700'><Link href="./../page3">FAQ</Link></li>  
                             </ul>  
                         )}  </li>  
                     <li className='hover:underline  hover:decoration-green-700'><Link href="./../shop">Shop</Link></li>  

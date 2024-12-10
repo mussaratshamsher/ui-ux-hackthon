@@ -28,7 +28,7 @@ export default function FoodMenu() {
 <div className='menu1'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='w-96 border border-gray-400 mb-2 mt-2'/>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
 <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
@@ -37,7 +37,7 @@ export default function FoodMenu() {
 <div className='menu2'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='w-96 border border-gray-400 mb-2 mt-2'/>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
 <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
@@ -46,7 +46,7 @@ export default function FoodMenu() {
 <div className='menu3'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='w-96 border border-gray-400 mb-2 mt-2'/>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
 <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
@@ -55,7 +55,7 @@ export default function FoodMenu() {
 <div className='menu4'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='w-96 border border-gray-400 mb-2 mt-2'/>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
 <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
@@ -64,7 +64,7 @@ export default function FoodMenu() {
 <div className='menu5'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='w-96 border border-gray-400 mb-2 mt-2'/>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
 <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
@@ -73,7 +73,7 @@ export default function FoodMenu() {
 <div className='menu6'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='w-96 border border-gray-400 mb-2 mt-2'/>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
 <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
@@ -82,7 +82,7 @@ export default function FoodMenu() {
 <div className='menu7'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='md:w-96 border border-gray-400 mb-2 mt-2'/>
+  <hr className='md:w-96 w-40 border border-gray-400 mb-2 mt-2'/>
 <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>
@@ -91,7 +91,7 @@ export default function FoodMenu() {
 <div className='menu8'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-  <hr className='w-96  border border-gray-400 mb-2 mt-2'/>
+  <hr className='md:w-96 w-40  border border-gray-400 mb-2 mt-2'/>
 <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
 <p>560 CAL</p>
 </div>

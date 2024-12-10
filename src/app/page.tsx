@@ -26,7 +26,7 @@ export default function Home() {
     <div className='  md:mt-10 md:grid md:grid-cols-2 flex flex-col-reverse mt-2'>
 
 {/* grid 1 */}
-<div className='  md:ml-10 ml-2'>
+<div className='md:ml-10 ml-2'>
 <h2 id='myfont' className='text-green-800'> Healthy & Tasty Food <hr className='md:w-20 w-5 -mt-2 ml-64 border border-green-800'/></h2>
 <h1 className='flex flex-row md:text-4xl text-2xl md:font-bold font-semibold mt-4 md:mt-10'>Enjoy Healthy Life 
  <br  /> & Tasty Food. <Sparkles className='text-green-600'/> 
