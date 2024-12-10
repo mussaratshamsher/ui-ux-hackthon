@@ -1,6 +1,6 @@
-"use client"
 
- 
+
+"use client"  
 
 import {  
     Sheet,  
@@ -9,31 +9,51 @@ import {
 } from "@/components/ui/sheet";  
 import { Search, ShoppingBag, User } from 'lucide-react';  
 import Link from 'next/link';  
+import { useState } from 'react';    
 
 export default function Header() {  
+    const [isOpen, setIsOpen] = useState(false); 
+
+    const toggleDropdown = () => {  
+        setIsOpen(prev => !prev); 
+    };  
+
     return (  
         <div className="w-full">  
             <div id='banner'>  
                 <h1 className='h-10 md:text-1xl mt-2 p-2 text-xs' id='scrolling-text'>  
-                    <b className="text-2xl">F<span id='clr'>oo</span>dtuck <i className='bx bx-bowl-hot text-green-600 text-2xl'></i>.....</b>  
+                    <b className="text-2xl">F<span id='clr'>oo</span>dtuck <i className='bx bx-bowl-hot text-green-600 text-2xl'></i></b>  
                 </h1>  
             </div>  
 
             <div className="md:h-20 h-10 flex flex-row backdrop-blur-sm md:justify-between justify-evenly gap-2 md:mt-5 mt-3 md:p-5 p-2">  
                 <h1 className='font-bold md:text-4xl text-1xl md:ml-32'>F<span id='clr'>oo</span>dtuck</h1>  
 
-                <ul className="md:flex md:flex-row gap-5 hidden">  
-                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="/">Home</Link></li>  
-                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../menu">Menu</Link></li>  
-                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../blog">Blog</Link></li>  
-                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../page">Page</Link></li>  
-                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../shop">Shop</Link></li>  
-                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../about">About</Link></li>  
-                    <li className='hover:underline hover:font-semibold hover:decoration-green-700'><Link href="./../contact">Contact</Link></li>  
+                <ul className="md:flex md:flex-row gap-8 hidden">  
+                    <li className='hover:underline  hover:decoration-green-700'><Link href="/">Home</Link></li>  
+
+                    
+                    <li className='hover:underline  hover:decoration-green-700'><Link href="./../menu">Menu</Link></li>  
+                    <li className='hover:underline  hover:decoration-green-700'><Link href="./../blog">Blog</Link></li>
+
+                    <li className='relative' onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>  
+                        <span className='cursor-pointer hover:underline hover:decoration-green-700'>Pages<i className='bx bx-chevron-down'></i></span>  
+                        {isOpen && (   
+                            <ul className="absolute bg-white w-28 shadow-md mt-1 rounded-lg p-2 z-10 text-xs">  
+                                <li className='hover:underline hover:decoration-green-700'><Link href="./../chefs">Our chef</Link></li>  
+                                <li className='hover:underline hover:decoration-green-700'><Link href="./../shop">Shop</Link></li>  
+                                <li className='hover:underline hover:decoration-green-700'><Link href="./../page3">Page 3</Link></li>  
+                            </ul>  
+                        )}  </li>  
+                    <li className='hover:underline  hover:decoration-green-700'><Link href="./../shop">Shop</Link></li>  
+                    <li className='hover:underline hover:decoration-green-700'><Link href="./../about">About</Link></li>  
+                    <li className='hover:underline  hover:decoration-green-700'><Link href="./../contact">Contact</Link></li>  
                 </ul>  
 
                 <div className="flex flex-row md:gap-2 md:mr-20">  
-                 <Search /> <Link href="./../auth"><User /></Link>    <ShoppingBag />  
+                    <Search />   
+                    <Link href="./../auth"><User /></Link>    
+                    <ShoppingBag />  
                 </div>  
 
                 <Sheet>  
@@ -45,10 +65,19 @@ export default function Header() {
                             <li className='hover:underline hover:decoration-green-700'><Link href="/">Home</Link></li>  
                             <li className='hover:underline hover:decoration-green-700'><Link href="./../menu">Menu</Link></li>  
                             <li className='hover:underline hover:decoration-green-700'><Link href="./../blog">Blog</Link></li>  
-                            <li className='hover:underline hover:decoration-green-700'><Link href="./../page">Page</Link></li>  
                             <li className='hover:underline hover:decoration-green-700'><Link href="./../shop">Shop</Link></li>  
                             <li className='hover:underline hover:decoration-green-700'><Link href="./../about">About</Link></li>  
-                            <li className='hover:underline hover:decoration-green-700'><Link href="./../contact">Contact</Link></li>  
+                            <li className='hover:underline hover:decoration-green-700'><Link href="./../contact">Contact</Link></li> 
+
+                            <li className='relative' onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>  
+                        <span className='cursor-pointer hover:underline hover:decoration-green-700'>Pages<i className='bx bx-chevron-down'></i></span>  
+                        {isOpen && (   
+                            <ul className="absolute bg-white w-28 shadow-md mt-1 rounded-lg p-2 z-10 text-xs">  
+                                <li className='hover:underline hover:decoration-green-700'><Link href="./../chef">Our chef</Link></li>  
+                                <li className='hover:underline hover:decoration-green-700'><Link href="./../shop">Shop</Link></li>  
+                                <li className='hover:underline hover:decoration-green-700'><Link href="./../page3">Page 3</Link></li>  
+                            </ul>  
+                        )}  </li>   
                         </ul>  
                     </SheetContent>  
                 </Sheet>  
@@ -56,4 +85,3 @@ export default function Header() {
         </div>  
     );  
 }
-

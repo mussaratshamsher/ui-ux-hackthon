@@ -77,6 +77,10 @@ body {
   }
 }
 
+body{
+  overflow-x:hidden;
+}
+
 #clr{
   color: rgb(7, 104, 7);
 }

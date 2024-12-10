@@ -37,15 +37,15 @@ export default function Auth(){
         <form> 
 
         <div className="mb-4 mt-3">  
-             <input  type="email"  required className="block w-full px-4 py-3 border " placeholder='Name'/>  
+             <input  type="text"  required className="block w-full px-4 py-3 border" placeholder='Name'/>  
           </div>  
 
           <div className="mb-4">   
-             <input  type="email"  required className="block w-full px-4 py-3 border " placeholder='Email'/>  
+         <input  type="email"  required className="block w-full px-4 py-3 border" placeholder='Email'/>  
           </div> 
 
           <div className="mb-4">   
-            <input type="password" required  className="block w-full px-4 py-3 border  "/>  
+            <input type="text" required className="block w-full px-4 py-3 border " placeholder='Message'/>  
           </div> 
 
           <div>
