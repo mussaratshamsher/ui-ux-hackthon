@@ -48,7 +48,7 @@ export default function Footer() {
 <li><Link href="./../about" className='mt-2'>About Us</Link></li>
 <li><Link href="./../contact" className='mt-2'>Contact</Link></li>
 <li><Link href="./../menu" className='mt-2'>Our Menu</Link></li>
-<li><Link href="./../team" className='mt-2'>Team</Link></li>
+<li><Link href="./../chef" className='mt-2'>Team</Link></li>
 <li><Link href="./../faq" className='mt-2'>FAQ</Link></li>
 </ul>
 </div>
