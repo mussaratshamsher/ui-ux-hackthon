@@ -36,51 +36,52 @@ export default function Chefs() {
 
   {/* row 1 */}
 
-<div className=''>
-    <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64  data-aos="zoom-in"'/>
-    <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
+<div className=' transition-all ease-linear duration-300 hover:scale-90'>
+    <Image src={member} alt="" width={500} height={500} 
+    className='md:w-80 md:h-80 w-64 h-64  data-aos="zoom-in"'/>
+    <h1 className='text-center font-bold text-xl md:mt-5 mt-2 '>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 
-    <div className=''>
+    <div className=' transition-all ease-linear duration-300 hover:scale-90'>
     <Image src={chef1} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-  data-aos="zoom-in"'/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 
-    <div >
+    <div className='transition-all ease-linear duration-300 hover:scale-90'>
     <Image src={chef2} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64 '/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 
-    <div >
+    <div className='transition-all ease-linear duration-300 hover:scale-90'>
     <Image src={chef3} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64 '/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
-    </div>
+     </div>
 
  {/* row 2 */}
 
-    <div>
+    <div className='transition-all ease-linear duration-300 hover:scale-90'>
     <Image src={chef4} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 
-    <div >
+    <div className='transition-all ease-linear duration-300 hover:scale-90'>
     <Image src={chef5} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 
-    <div>
+    <div className='transition-all ease-linear duration-300 hover:scale-90'>
     <Image src={chef6} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 
-    <div>
+    <div className='transition-all ease-linear duration-300 hover:scale-90'>
     <Image src={chef7} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
@@ -88,34 +89,29 @@ export default function Chefs() {
 
 {/* row 3 */}
 
-    <div>
+    <div className='transition-all ease-linear duration-300 hover:scale-90'>
     <Image src={chef1} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 
-    <div>
+    <div className='transition-all ease-linear duration-300 hover:scale-90'>
     <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 
-    <div>
+    <div className='transition-all ease-linear duration-300 hover:scale-90'>
     <Image src={chef3} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 
-    <div>
+    <div className='transition-all ease-linear duration-300 hover:scale-90'>
     <Image src={chef4} alt="" width={500} height={500} className='md:w-80 md:h-80 w-64 h-64'/>
     <h1 className='text-center font-bold text-xl md:mt-5 mt-2'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
-
-
-
-
-
 
 </div>
     </div>

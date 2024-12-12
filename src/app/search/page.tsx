@@ -18,9 +18,9 @@ export default function Search() {
  <Link href='./../blogs' className='text-green-700'> Blogs</Link></div>
 </div>
 
-<div className='text-center max-w-screen-md md:p-10 p-2'>
+<div className=' w-full md:ml-16 -mt-10 md:mt-20 text-center md:p-10 p-2'>
 
-<h1 className='text-2xl md:text-5xl text-green-800 font-bold '>404</h1>
+<h1 className='text-2xl md:text-7xl text-green-800 font-bold '>404</h1>
 <h2 className='font-bold text-xs md:text-lg p-2'>Oops! Look likes something going wrong</h2>
 <p className='p-2 text-gray-700'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     <br /> Lorem Ipsum has been the industry's

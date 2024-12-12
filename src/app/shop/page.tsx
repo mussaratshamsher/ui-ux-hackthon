@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
+import 'animate.css'
 import themebg from '../../../public/images/themebg.png'
 import banner from '../../../public/images/banner.png'
 import shopG2 from '../../../public/images/shopG2.png'
@@ -27,10 +27,10 @@ export default function Shop() {
 </div>
 
 {/* search options  */}
-
+<div>
 <h1 className='text-2xl md:text-4xl -mt-16 md:mt-20 text-center text-green-800' id='myfont'>
-            <i className='bx bx-store text-green-800 md:text-5xl text-2xl p-2 '></i>Our Shop</h1>
-
+  <i className='bx bx-store text-green-800 md:text-5xl text-2xl p-2'></i>Our Shop</h1>
+</div>
    <div className='md:p-14 ml-4 md:ml-32'>
     <label>Sort By:</label>
     <select className='w-20 md:w-44 md:ml-2 md:p-2 border border-gray-400 shadow-sm text-gray-400'>
@@ -116,6 +116,8 @@ export default function Shop() {
      <h1 className='flex'><input type="text" placeholder='Search Product' className='bg-green-200 w-24 md:w-40 text-sm p-1'/>
       <i className='bx bx-search  bg-green-800 text-white p-2 md:p-3 '></i></h1> 
 
+
+{/* category  */}
         <h1 className='font-bold mt-1 md:mt-2 text-sm md:text-lg'>Category</h1>
 
         <div className='text-sm md:text-lg'>
@@ -128,7 +130,10 @@ export default function Shop() {
          <h1><input type="checkbox" className='mt-0 md:mt-2'/> Non Veg</h1> 
          <h1><input type="checkbox" className='mt-0 md:mt-2'/> Uncategorized</h1> 
   </div>
-<Image src={banner} alt='' width={500} height={500} className='w-20 md:w-60 mt-2 md:mt-4'/>
+<Image src={banner} alt='' width={500} height={500} className='w-20 md:w-60 mt-2 md:mt-4 
+ z-10 transition-opacity duration-300 hover:opacity-10'/>
+
+{/* by Price  */}
         <h1 className='font-bold mt-1 md:mt-2 text-sm md:text-lg'> Filter By Price</h1>
          <hr className='md:w-40 w-20 h-1 border-green-800 mt-1 md:mt-2'/>
         <h2 className=' mt-1 md:mt-2 text-gray-400'> From $0 to $8000 <span className=''>Filter</span></h2>
@@ -180,8 +185,6 @@ export default function Shop() {
              <p>$35.00</p>
             </div>           
 
-
-
          </div>
 
         <h1 className='font-bold mt-1 md:mt-3 text-sm md:text-lg '>Product Tags</h1>
@@ -190,9 +193,12 @@ export default function Shop() {
         
 <p>Our Shop</p><p>Services</p>
 <p>Menu</p>
-<p>Cupcake</p><p>Burger<p>
-    </p>Cookies</p><p>Pizza</p>
-Tandoori<p></p>Chicken<p></p>
+<p>Cupcake</p>
+<p>Burger</p>
+<p> Cookies</p>
+<p>Pizza</p>
+<p>Tandoori</p>
+<p>Chicken</p>
        </div>
 
 

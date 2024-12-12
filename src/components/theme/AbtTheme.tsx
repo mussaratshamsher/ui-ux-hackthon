@@ -1,5 +1,5 @@
 
-
+import 'animate.css';
 
 
 import Image from 'next/image'
@@ -21,19 +21,18 @@ export default function AbtTheme() {
     
 
 
-   <div className='animate__animated animate__zoomIn animate_infinte col-span-1 row-span-2'>
+   <div className='animate__animated animate__zoomIn animate__delay-2s col-span-1 row-span-2'>
     <Image src={abthome2} alt='' width={500} height={500} className='md:w-[300px] md:h-[450px] w-[150px] h-[250px]'/></div> 
-   <div className='animate__animated animate__zoomIn mt-5'>
+   <div className='animate__animated animate__zoomIn animate__delay-2s mt-5'>
     <Image src={abthome1} alt='' width={500} height={500} className='md:w-[250px] md:h-[200px] w-[120px] h-[100px]'/></div>
-   <div className='animate__animated animate__zoomIn row-span-2'>
+   <div className='animate__animated animate__zoomIn animate__delay-2s row-span-2'>
     <Image src={abthome3} alt='' width={500} height={500} className='md:w-[250px] md:h-[300px] w-[120px] h-[150px] '/></div>
    </div>
 
 {/* text section */}
 
 
-
-<div className=' md:ml-28 ml-3 -mt-10'>
+<div className=' md:ml-28 ml-3 -mt-10 '>
 <h2 id='myfont' className='text-green-800 md:mt-40'> About Us <hr className='md:w-10 w-5 -mt-5 md:ml-32 ml-20 border border-green-800'/></h2>
 <h1 className='flex flex-row md:text-4xl text-1xl md:font-bold font-semibold mt-4 md:mt-10'>Enjoy Healthy Life 
  <br  /> & Tasty Food.  </h1>
@@ -46,13 +45,7 @@ Lorem Ipsum is simply dummy text of dummy text of the printing and type setting 
 </div>
 
     
-    
-    
-    
-    
-    
-    
-    
+
     </div>
   )
 }

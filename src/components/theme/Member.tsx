@@ -11,15 +11,15 @@ import Image from 'next/image'
 
 export default function Member() {
   return (
-   <div className='w-full h-auto mb-10 '>
+   <div className='w-full h-auto mb-10 data-aos="fade-up-right"'>
     <div className='bg-green-500 md:h-[350px] h-[100px] '>
     <Image src={abt1} alt="" width={500} height={500} className='w-80 h-80 md:ml-[450px]  opacity-20 '/>
     </div>
     
-    <div className='grid md:grid-cols-4 grid-cols-1 p-10 md:gap-5 gap-2 -mt-28 z-1'>
+    <div className='grid md:grid-cols-4 grid-cols-1 p-10 md:gap-5 gap-2 -mt-28 z-1 '>
     
     {/* member 1 */}
-    <div className='bg-slate-100'>
+    <div className='bg-slate-100  animate animated animate__backInLeft animte_delay-2s'>
     <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64'/>
     
     <div className='flex flex-col align-top -mt-56 md:ml-60 ml-40'>
@@ -34,7 +34,7 @@ export default function Member() {
     </div>
     
     {/* member 2 */}
-    <div className='bg-slate-100'>
+    <div className='bg-slate-100 animate animated animate__backInLeft animte_delay-2s'>
     <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64'/>
     
     <div className='flex flex-col align-top  -mt-60 md:ml-60 ml-40'>
@@ -49,7 +49,7 @@ export default function Member() {
     </div>
     
     {/* member 3 */}
-    <div className='bg-slate-100'>
+    <div className='bg-slate-100 animate animated animate__backInLeft animte_delay-2s'>
     <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64' />
     
     <div className='flex flex-col align-top -mt-60 md:ml-60 ml-40'>
@@ -64,7 +64,7 @@ export default function Member() {
     </div>
     
     {/* member 4 */}
-    <div className='bg-slate-100'>
+    <div className='bg-slate-100 animate animated animate__backInLeft animte_delay-2s'>
     <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64'/>
     
     <div className='flex flex-col align-top  -mt-60 md:ml-60 ml-40'>

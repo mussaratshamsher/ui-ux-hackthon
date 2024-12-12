@@ -1,7 +1,7 @@
 
 "use client"
 
-
+import 'animate.css'
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';  
@@ -29,12 +29,12 @@ export default function Auth(){
 </div> 
 
 
-    <div className="flex items-center justify-center h-auto md:mt-20 mt-10 mb-4" > 
+    <div className="flex items-center justify-center h-auto md:mt-20 -mt-20 mb-4 " > 
       <div className="w-full max-w-md p-6 bg-transparent rounded-lg shadow-xl ">  
         <h2 className="mb-6 text-2xl font-bold text-center">{isLogin ? 'Login' : 'Sign Up'}</h2>  
 
 
-        <form> 
+        <form > 
 
         <div className="mb-4 mt-3">  
              <input  type="text"  required className="block w-full px-4 py-3 border" placeholder='Name'/>  

@@ -23,8 +23,11 @@ export default function ChooseUs() {
 <Image src={chooseback} alt='' width={100} height={100} className='w-40 ml-20 md:ml-28  absolute -mt-8 md:-mt-4 -z-10'/>
 
  <div className='flex '>
-<Image src={choose1} alt='' width={100} height={100}  className='md:w-[200px]  w-[100px]'/>
-<Image src={abthome3} alt='' width={100} height={100} className='w-[100px] md:w-[200px] relative top-10 -ml-8 md:top-20 md:-ml-16'/> 
+<Image src={choose1} alt='' width={100} height={100}  className='md:w-[200px]  w-[100px] 
+animate animated animate__backInLeft animate__delay-7s'/>
+
+<Image src={abthome3} alt='' width={100} height={100} className='w-[100px] md:w-[200px] relative top-10 -ml-8 md:top-20 md:-ml-16 
+animate animated animate__backInRight animate__delay-7s'/> 
 </div>
 </div>
 

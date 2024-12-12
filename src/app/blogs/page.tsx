@@ -51,7 +51,8 @@ export default function blogs() {
   <div className='col-span-1 md:col-span-2 md:gap-5 gap-1 '>  
     {/* Blog 1 */}  
     <div className='mb-2'>  
-      <Image src={blog1} alt="Chocolate Truffle Cake" width={500} height={500} className='w-36 h-20 md:w-[500px] md:h-[300px]'/>  
+      <Image src={blog1} alt="Chocolate Truffle Cake" width={500} height={500} 
+      className='w-36 h-20 md:w-[500px] md:h-[300px] scale-100 transition-all duration-300 hover:scale-90'/>  
       <h2 className='mt-2 text-xs'>  
         <i className='bx bx-box text-green-700'></i>Jan 14, 2022 /   
         <i className='bx bx-chat text-green-700'></i> 3 /   
@@ -68,7 +69,8 @@ export default function blogs() {
     
     {/* Blog 2 */}  
     <div className='mb-2'>  
-      <Image src={blog2} alt="Chocolate Truffle Cake" width={500} height={500} className='w-36 h-20 md:w-[500px] md:h-[300px]'/>  
+      <Image src={blog2} alt="Chocolate Truffle Cake" width={500} height={500} 
+      className='w-36 h-20 md:w-[500px] md:h-[300px] scale-100 transition-all duration-300 hover:scale-90'/>  
       <h2 className='mt-2 text-xs'>  
         <i className='bx bx-box text-green-700'></i>Jan 14, 2022 /   
         <i className='bx bx-chat text-green-700'></i> 3 /   
@@ -85,7 +87,8 @@ export default function blogs() {
 
     {/* Blog 3 */}  
     <div className='mb-2'>  
-      <Image src={blog3} alt="Chocolate Truffle Cake" width={500} height={500} className='w-36 h-20 md:w-[500px] md:h-[300px]'/>  
+      <Image src={blog3} alt="Chocolate Truffle Cake" width={500} height={500} 
+      className='w-36 h-20 md:w-[500px] md:h-[300px] scale-100 transition-all duration-300 hover:scale-90'/>  
       <h2 className='mt-2 text-xs'>  
         <i className='bx bx-box text-green-700'></i>Jan 14, 2022 /   
         <i className='bx bx-chat text-green-700'></i> 3 /   
@@ -102,7 +105,8 @@ export default function blogs() {
 
     {/* Blog 4 */}  
     <div className='mb-2'>  
-      <Image src={blog4} alt="Chocolate Truffle Cake" width={500} height={500} className='w-36 h-20 md:w-[500px] md:h-[300px]'/>  
+      <Image src={blog4} alt="Chocolate Truffle Cake" width={500} height={500} 
+      className='w-36 h-20 md:w-[500px] md:h-[300px] scale-100 transition-all duration-300 hover:scale-90'/>  
       <h2 className='mt-2 text-xs'>  
         <i className='bx bx-box text-green-700'></i>Jan 14, 2022 /   
         <i className='bx bx-chat text-green-700'></i> 3 /   
@@ -238,12 +242,12 @@ export default function blogs() {
   <h1 className='font-bold mt-1 md:mt-2 mb-2 md:mb-5'>Photo Gallery</h1>
   <div className='grid grid-cols-3 grid-rows-2 gap-1'>
 
-<Image src={f1} alt='' width={100} height={100} />
-<Image src={f3} alt='' width={100} height={100} />
-<Image src={f2} alt='' width={100} height={100} />
-<Image src={f4} alt='' width={100} height={100} />
-<Image src={f5} alt='' width={100} height={100} />
-<Image src={f6} alt='' width={100} height={100} />
+<Image src={f1} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
+<Image src={f3} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
+<Image src={f2} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
+<Image src={f4} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
+<Image src={f5} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
+<Image src={f6} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
 
 </div>
 </div>

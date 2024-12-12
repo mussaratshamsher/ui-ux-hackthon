@@ -10,25 +10,25 @@ export default function FoodCategory() {
 
 <div className='grid grid-cols-1 md:grid-cols-4 gap-2 ml-4'>
 
-<div>
+<div className='animate_animated animate__bounceIn animate__delay-5s 5s'>
     <Image src={cake} alt='' width={100} height={100} className='md:w-[270px] md:h-[300px] w-[200px] h-[170px] ml-5' />
     <h1 className='text-1xl md:text-2xl font-bold text-center mt-3'>Molto Tagiliatelle</h1>
 <p className='text-center mb-4 mt-2'>20 Item</p>
 </div>
 
-<div>
+<div  className='animate_animated animate__bounceIn animate__delay-5s 5s'>
     <Image src={cake} alt='' width={100} height={100} className='md:w-[270px] md:h-[300px] w-[200px] h-[170px] ml-5' />
     <h1 className='text-1xl md:text-2xl font-bold text-center mt-3'>Molto Tagiliatelle</h1>
 <p className='text-center mb-4 mt-2'>20 Item</p>
 </div>
 
-<div>
+<div  className='animate_animated animate__bounceIn animate__delay-5s 5s'>
     <Image src={cake} alt='' width={100} height={100} className='md:w-[270px] md:h-[300px] w-[200px] h-[170px] ml-5' />
     <h1 className='text-1xl md:text-2xl font-bold text-center mt-3'>Molto Tagiliatelle</h1>
 <p className='text-center mb-4 mt-2'>20 Item</p>
 </div>
 
-<div>
+<div  className='animate_animated animate__bounceIn animate__delay-5s 5s'>
     <Image src={cake} alt='' width={100} height={100} className='md:w-[270px] md:h-[300px] w-[200px] h-[170px] ml-5' />
     <h1 className='text-1xl md:text-2xl font-bold text-center mt-3'>Molto Tagiliatelle</h1>
 <p className='text-center mb-4 mt-2'>20 Item</p>
