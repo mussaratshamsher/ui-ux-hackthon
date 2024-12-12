@@ -24,120 +24,121 @@ export default function Menu() {
 <div className='flex flex-row justify-center -mt-20 md:ml-40 '><Link href='/'>Home<i className='bx bx-chevron-right '></i>  </Link>
  <Link href='./../menu' className='text-white'> Menu</Link></div>
 </div>
-
-          
-          <h1 className='text-2xl md:text-3xl md:mt-20 mt-5 text-center'>
+      
+          <h1 className='text-2xl md:text-3xl md:mt-20 -mt-20 text-center text-green-800' id='myfont'>
             <i className='bx bx-coffee text-green-800 md:text-5xl text-2xl p-2 '></i>Starter Menu</h1>
          
           {/* Menu  grid 1 */}
-<div className='grid grid-cols-1 md:grid-cols-3 md:mt-20 mt-5 md:gap-20 md:ml-20 ml-2'>
+<div className='grid grid-cols-1 md:grid-cols-3 md:mt-20 mt-5 md:gap-20 md:ml-20 ml-2 mb-2'>
 
-<Image src={menu1} alt='' width={500} height={500} className='grid col-span-1 '/>
-        
-        <div className='grid col-span-2  grid-rows-4 mt-2'>
+<Image src={menu1} alt='' width={500} height={500} className=' col-span-1 w-72 md:w-96 ml-2'/>
+       
+        {/* menu item 1  */}
+        <div className='grid col-span-2  grid-rows-4 mt-2 '>
 
      <div>
-    
-    <h1 className='hover:text-green-800 text-xl font-bold '> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
     
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
 
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
 
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
 
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
+
             </div>    
             </div> 
 
+        {/* main course  */}
             <h1 className='text-2xl md:text-3xl md:mt-20 mt-5 text-center'>
             <i className='bx bx-coffee text-green-800 md:text-5xl text-2xl p-2 '></i>Main Course</h1>
+
             {/* Menu  grid 2 */}
-<div className='grid grid-cols-1 md:grid-cols-3 md:mt-10 mt-5 md:mr-20 mr-5 ml-2'>
-        
+<div className='grid grid-cols-1 md:grid-cols-3 md:mt-10 mt-5 md:mr-20 mr-5 ml-2 mb-2'>
+
+   {/* menu items       */}
 <div className='grid col-span-2 grid-rows-4 mt-2 md:ml-20 '>
 
-     <div>
-    
-    <h1 className='hover:text-green-800 text-xl font-bold '> Alder Grilled Chinook Salmon 
+<div>
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
     
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
 
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
 
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
 
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
             </div> 
 
-<Image src={menu2} alt='' width={500} height={500} className='grid col-span-1 '/>
+<Image src={menu2} alt='' width={500} height={500} className='grid col-span-1 w-72 md:w-96 ml-2'/>
 
             </div> 
-
 
  {/* center theme  */}
-<div className='bg-black mt-10 w-auto'>
-<Image src={choose} alt='' width={500} height={500} className='w-auto md:w-full md:h-[250px] h-[400px] opacity-20'/>
+<div className='bg-black mt-10 w-72 md:w-[1200px] ml-2 md:ml-10 '>
+<Image src={choose} alt='' width={500} height={500} className='w-72 md:w-[1200px] md:h-[250px] h-[400px]  opacity-20'/>
     
-    <div className='grid grid-cols-1 md:grid-cols-4 md:gap-20 text-white absolute md:ml-72 md:-mt-44 -mt-96 ml-20'>
+    <div className='grid grid-cols-1 md:grid-cols-4 md:gap-20 text-white absolute md:ml-72 md:-mt-44 -mt-96 ml-28'>
      <div> 
         <ChefHat className='text-green-600 font-extrabold'/>
         <h1 className='text-2xl -ml-2'> 420</h1>
@@ -165,105 +166,103 @@ export default function Menu() {
     </div>
 </div>
 
-
            {/* Menu  grid 3 */}
- <div className='grid grid-cols-1 md:grid-cols-3 md:mt-20 mt-5 md:gap-20 md:ml-20 ml-2'>
+ <div className='grid grid-cols-1 md:grid-cols-3 md:mt-20 mt-5 md:gap-20 md:ml-20 ml-2 mb-2'>
 
-<Image src={menu3} alt='' width={500} height={500} className='grid col-span-1 '/>
+<Image src={menu3} alt='' width={500} height={500} className='grid col-span-1 w-72 md:w-96 ml-2'/>
         
         <div className='grid col-span-2  grid-rows-4 mt-2 ml-2'>
 
-     <div>
-    
-    <h1 className='hover:text-green-800 text-xl font-bold '> Alder Grilled Chinook Salmon 
+        <div>
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
     
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
 
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
 
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
 
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
+
             </div>    
             </div> 
 
             {/* Menu  grid 4 */}
-<div className='grid grid-cols-1 md:grid-cols-3 md:mt-10 mt-5 md:mr-20 mr-5 ml-2'>
+<div className='grid grid-cols-1 md:grid-cols-3 md:mt-10 mt-5 md:mr-20 mr-5 ml-2 mb-2'>
         
-        <div className='grid col-span-2 grid-rows-4 mt-2 md:ml-20 ml-5'>
+        <div className='grid col-span-2 grid-rows-4 mt-2 md:ml-20 ml-2'>
 
-     <div>
-    
-    <h1 className='hover:text-green-800 text-xl font-bold '> Alder Grilled Chinook Salmon 
+        <div>
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
+    <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
+    <p>560 CAL</p>
+    </div>
+
+    <div>
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
+    <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
     
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
 
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
 
     <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
+    <h1 className='hover:text-green-800 md:text-xl text-sm font-bold '> Alder Grilled Chinook Salmon 
     <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
-    <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
-    <p>560 CAL</p>
-    </div>
-
-    <div>
-    <h1 className='hover:text-green-800 text-xl font-bold mt-2'> Alder Grilled Chinook Salmon 
-    <span className='text-green-800 font-bold text-1xl md:ml-40 ml-10'>35$</span></h1>
-    <hr className='w-80 border border-gray-400 mb-2 mt-2'/>
+    <hr className=' w-72 md:w-80 border border-gray-400 mb-2 mt-2'/>
     <p className='mt-2 mb-2 text-xs'>Tesseted French bread topped with myonese, cheddar</p>
     <p>560 CAL</p>
     </div>
             </div> 
 
-<Image src={menu1} alt='' width={500} height={500} className='grid col-span-1 '/>
+<Image src={menu1} alt='' width={500} height={500} className='grid col-span-1 w-72 md:w-96 ml-2'/>
 
             </div> 
     </div>

@@ -34,7 +34,7 @@ export default function Header() {
 
                     
                     <li className='hover:underline  hover:decoration-green-700'><Link href="./../menu">Menu</Link></li>  
-                    <li className='hover:underline  hover:decoration-green-700'><Link href="./../blog">Blog</Link></li>
+                    <li className='hover:underline  hover:decoration-green-700'><Link href="./../blogs">Blog</Link></li>
 
                     <li className='relative' onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>  
                         <span className='cursor-pointer hover:underline hover:decoration-green-700'>Pages<i className='bx bx-chevron-down'></i></span>  
@@ -51,7 +51,7 @@ export default function Header() {
                 </ul>  
 
                 <div className="flex flex-row md:gap-2 md:mr-20">  
-                    <Search />   
+                    <Link href='./../search'><Search />  </Link> 
                     <Link href="./../auth"><User /></Link>    
                     <ShoppingBag />  
                 </div>  
@@ -64,7 +64,7 @@ export default function Header() {
                         <ul className="flex flex-col gap-4">  
                             <li className='hover:underline hover:decoration-green-700'><Link href="/">Home</Link></li>  
                             <li className='hover:underline hover:decoration-green-700'><Link href="./../menu">Menu</Link></li>  
-                            <li className='hover:underline hover:decoration-green-700'><Link href="./../blog">Blog</Link></li>  
+                            <li className='hover:underline hover:decoration-green-700'><Link href="./../blogs">Blog</Link></li>  
                             <li className='hover:underline hover:decoration-green-700'><Link href="./../shop">Shop</Link></li>  
                             <li className='hover:underline hover:decoration-green-700'><Link href="./../about">About</Link></li>  
                             <li className='hover:underline hover:decoration-green-700'><Link href="./../contact">Contact</Link></li> 

@@ -64,8 +64,9 @@ export default function Home() {
 
 
 </div>
+<div className="mt-24 md:-mt-10">
 <AbtTheme/>
-
+</div>
 <FoodCategory/>
 <ChooseUs/>
 <FoodMenu/>

@@ -23,17 +23,19 @@ export default function Contact() {
       <h1 className='md:text-2xl text-1xl text-center md:mt-20 -mt-20 font-bold text-green-800' id='myfont'>Contact Us</h1>
       <h1 className='md:text-3xl text-2xl md:ml-14 ml-2 mt-5 font-bold font-serif'>Contact for any Query</h1>
 
-      <div className=' grid md:grid-cols-2 grid-cols-1 mt-5 m-5'>
+      <div className=' grid md:grid-cols-2 grid-cols-1 mt-5 m-5 gap-2'>
 {/* maingrid 1 */}
         <div className='md:ml-20 ml-2'>
          
-          <div> <h1 className='md:text-2xl text-1xl' id='clr2'> Booking <hr className='md:w-20 w-12 border-gray-400 border'/></h1> 
-          <Mail className='mt-4' id='clr2'/><Link href="">book@foodtuck.com</Link>  </div>
-          <div> <h1 className='md:text-2xl text-1xl mt-5' id='clr2'>General<hr className='md:w-20 w-12 border-gray-400 border'/></h1> 
-          <Mail className='mt-4' id='clr2'/><Link href="">info@foodtuck.com</Link> </div>
-          <div> <h1 className='md:text-2xl text-1xl mt-5' id='clr2'>Technical<hr className='w-20 border-gray-400 border'/></h1> 
-         <Mail className='mt-4' id='clr2'/><Link href="">tech@foodtuck.com</Link> </div>
-        </div>
+          <div> <h1 className='md:text-2xl text-1xl md:p-2' id='clr2'> Booking <hr className='md:w-20 w-12 border-gray-400 border'/></h1> 
+         <div className='flex mt-2'> <Mail className='' id='clr2'/><Link href="">book@foodtuck.com</Link>  </div>
+          </div>
+          <div> <h1 className='md:text-2xl text-1xl md:p-2 ' id='clr2'>General<hr className='md:w-20 w-12 border-gray-400 border'/></h1> 
+         <div className='flex mt-2'> <Mail className='' id='clr2'/><Link href="">info@foodtuck.com</Link> </div>
+         </div>
+          <div> <h1 className='md:text-2xl text-1xl md:p-2' id='clr2'>Technical<hr className='w-20 border-gray-400 border'/></h1> 
+        <div className='flex mt-2'> <Mail className='' id='clr2'/><Link href="">tech@foodtuck.com</Link> </div>
+        </div></div>
 {/* maingrid 2 */}
          <div className='ml-2 box-border shadow-lg mb-2 p-4'>
 
@@ -52,8 +54,7 @@ export default function Contact() {
 
       </div>
       
-      
-      
+        
     </div>
   )
 }

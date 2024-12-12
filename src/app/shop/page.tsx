@@ -111,7 +111,7 @@ export default function Shop() {
     </div>  
 
     {/* grid 2 */}  
-    <div className=' col-span-2 md:col-span-1 border shadow-md  p-1 md:p-3'> 
+    <div className=' col-span-2 md:col-span-1 border shadow-md  p-1 md:p-3 '> 
 
      <h1 className='flex'><input type="text" placeholder='Search Product' className='bg-green-200 w-24 md:w-40 text-sm p-1'/>
       <i className='bx bx-search  bg-green-800 text-white p-2 md:p-3 '></i></h1> 
