@@ -50,7 +50,7 @@ export default function Header() {
                     <li className='hover:underline  hover:decoration-green-700'><Link href="./../contact">Contact</Link></li>  
                 </ul>  
 
-                <div className="flex flex-row md:gap-2 md:mr-20">  
+                <div className="flex flex-row md:gap-3 md:mr-20">  
                     <Link href='./../search'><Search />  </Link> 
                     <Link href="./../auth"><User /></Link>    
                     <ShoppingBag />  

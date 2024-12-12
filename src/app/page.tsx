@@ -43,16 +43,16 @@ export default function Home() {
 {/* grid 2 */}
 <div className='relative'>
 
-<Image src={bg} alt='' width={500} height={500} className='relative md:w-[700px] w-[300px] md:h-[500px] md:-mr-28 md:-mt-10 -z-10 top-0 '/>
+<Image src={bg} alt='' width={500} height={500} className='relative md:w-[700px] w-[350px]  md:h-[500px] md:-mr-28 md:-mt-8 -z-10 top-0 '/>
 
 <div className='flex flex-row'>
 
-<Image src={abt1} alt='' width={500} height={500} className='absolute w-[150px] md:w-[400px] md:-mt-[480px] -mt-48 md:ml-10 ml-10' id='rotateImage'/>
+<Image src={abt1} alt='' width={500} height={500} className='absolute w-[150px] md:w-[400px] md:-mt-[480px] -mt-56 md:ml-10 ml-14' id='rotateImage'/>
 
 <Image src={abt3} alt='' width={500} height={500} className='absolute md:-mt-[520px] md:-ml-[60px] md:w-[300px] w-32 -mt-60 -z-10'/>
 
 
-<Image src={abt2} alt='' width={500} height={500} className=' absolute md:-mt-[300px] md:ml-[50px] -z-10 md:w-[300px] w-32 -mt-32 ml-10   '/>
+<Image src={abt2} alt='' width={500} height={500} className=' absolute md:-mt-[300px] md:ml-[50px] -z-10 md:w-[300px] w-32 -mt-32 ml-12   '/>
 
 <Image src={salit} alt='' width={500} height={500} className=' absolute md:-mt-[400px] md:-ml-[70px] -z-10 md:w-[300px] w-32 -mt-44 -ml-2'/>
 
