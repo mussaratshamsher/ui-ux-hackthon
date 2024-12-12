@@ -143,6 +143,15 @@ body{
   }  
 }
 
+#blog{
+  box-sizing: border-box;
+  box-shadow: rgb(88, 181, 88);
+}
+#blog:hover{
+  box-shadow: 2px 0px 5px rgb(88, 181, 88),
+  2px 2px 10px rgb(88, 181, 88);
+}
+
 /* Apply the animation to the image */  
 #rotateImage {  
   height: auto; 

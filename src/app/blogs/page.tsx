@@ -147,7 +147,7 @@ export default function blogs() {
     <h1 className='font-bold mt-1 md:mt-2 mb-2 md:mb-3'>Recent Post</h1>
     {/* product 1  */}
     <div className='flex flex-row gap-1 md:gap-3'>
-<Image src={blogf1} alt='' width={500} height={500} className='w-7 h-7 md:w-20'/>
+<Image src={blogf1} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16' id='blog'/>
           <div className=' '>
            <p>June22, 2020</p> 
           <p className='text-gray-700 mt-2'>Lorem ipsum dolor sit cing elit, sed do.</p>
@@ -156,7 +156,7 @@ export default function blogs() {
           </div>
 {/* product  2 */}
 <div className='flex flex-row gap-1 md:gap-3 mt-2'>
-<Image src={blogf2} alt='' width={500} height={500} className='w-7 h-7 md:w-20 '/>
+<Image src={blogf2} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16 ' id='blog'/>
           <div className=' '>
            <p>June22, 2020</p> 
           <p className='text-gray-700 mt-2'>Lorem ipsum dolor sit cing elit, sed do.</p>
@@ -165,7 +165,7 @@ export default function blogs() {
            </div>
 {/* product  3 */}
 <div className='flex flex-row gap-1 md:gap-3 mt-2'>
-<Image src={blogf3} alt='' width={500} height={500} className='w-7 h-7 md:w-20 '/>
+<Image src={blogf3} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16' id='blog'/>
           <div className=' '>
            <p>June22, 2020</p> 
           <p className='text-gray-700 mt-2'>Lorem ipsum dolor sit cing elit, sed do.</p>
@@ -174,7 +174,7 @@ export default function blogs() {
            </div>
 {/* product  4 */}
 <div className='flex flex-row gap-1 md:gap-3 mt-2'>
-<Image src={blogf4} alt='' width={500} height={500} className='w-7 h-7 md:w-20 '/>
+<Image src={blogf4} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16' id='blog'/>
           <div className=' '>
            <p>June22, 2020</p> 
           <p className='text-gray-700 mt-2'>Lorem ipsum dolor sit cing elit, sed do.</p>
