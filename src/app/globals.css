@@ -78,6 +78,7 @@ body {
 }
 
 body{
+  width: 100%;
   overflow-x:hidden;
 }
 
@@ -87,9 +88,10 @@ body{
 
 #banner {  
   overflow: hidden;  
-  white-space: nowrap;  
+  white-space: nowrap; 
+  width: auto;
   background-color: black;  
-  color: white;  
+  color: white; 
   height: 40px;  
   display: flex;  
   align-items: center; 
@@ -101,9 +103,6 @@ body{
   font-size: 0.875rem;  
   padding-left: 100%; 
 }  
-#client{
-  animation: scroll 5s linear infinite;   
-}
 
 @keyframes scroll {  
   0% {  
@@ -124,13 +123,10 @@ body{
 }  
 
 #animateshop {  
-  width: 100px;  
-  height: 100px;  
-  background-color: #007BFF;  
-  position: relative;  
-  animation: moveUpDown 2s ease-in-out infinite;  
+  width: 200px;  
+  height: 200px;     
+  animation: moveUpDown ease-in-out infinite;  
 }  
-
 @keyframes moveUpDown {  
   0% {  
       transform: translateY(0);  
@@ -157,6 +153,9 @@ body{
   height: auto; 
   animation: rotate 4s linear infinite;  
 } 
+#rotateImage:hover{
+  animation-play-state: paused;
+}
 
 #back{
   backdrop-filter:blur(30px);

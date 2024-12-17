@@ -3,7 +3,7 @@ import 'animate.css'
 import Image from 'next/image'
 import React from 'react'
 import bg from '../../public/images/bg.png'
-import side1 from '../../public/images/side1.png'
+//import side1 from '../../public/images/side1.png'
 import abt1 from '../../public/images/abt1.png'
 import abt2 from '../../public/images/abt2.png'
 import abt3 from '../../public/images/abt3.png'
@@ -23,27 +23,27 @@ import Bestpeople from '@/components/theme/Bestpeople'
 
 export default function Home() {
   return (
-    <div className='w-full h-auto'>
-    <div className='  md:mt-10 md:grid md:grid-cols-2 flex flex-col-reverse mt-2'>
+    <div className=' h-auto w-full'>
+    <div className=' sm:gap-44 md:mt-10 md:grid md:grid-cols-2 flex flex-col-reverse mt-2'>
 
 {/* grid 1 */}
-<div className='md:ml-10 ml-2'>
+<div className='sm:ml-20 md:ml-10 ml-2'>
 <h2 id='myfont' className='text-green-800'> Healthy & Tasty Food <hr className='md:w-20 w-5 -mt-2 ml-64 border border-green-800'/></h2>
-<h1 className='flex flex-row md:text-4xl text-2xl md:font-bold font-semibold mt-4 md:mt-10'>Enjoy Healthy Life 
+<h1 className='flex flex-row sm:text-3xl  md:text-4xl lg:text-5xl text-2xl md:font-bold font-semibold mt-4 md:mt-10'>Enjoy Healthy Life 
  <br  /> & Tasty Food. <Sparkles className='text-green-600'/> 
 </h1>
-<p className='mt-10'>Lorem Ipsum is simply dummy text of dummy text of <br />the printing and type setting industry. </p>
+<p className='md:mt-10 sm:mt-5 '>Lorem Ipsum is simply dummy text of dummy text of <br />the printing and type setting industry. </p>
 
-<div className='grid md:grid-cols-2 grid-cols-1 mt-5 ml-14 md:ml-2'>
+<div className='grid grid-cols-1 sm:flex sm:flex-col md:grid md:grid-cols-2 md:gap-20 lg:grid-cols-2 mt-5 ml-14 md:ml-0'>
   <Button >Show more</Button>
-  <Button variant={'ghost'} className='md:-ml-24'>Place an order</Button>
+  <Button variant={'ghost'} className='  '>Place an order</Button>
 </div>
 </div >
 
 {/* grid 2 */}
-<div className='relative'>
+<div className='relative md:ml-0 ml-[100px]'>
 
-<Image src={bg} alt='' width={500} height={500} className='relative md:w-[700px] w-[350px]  md:h-[500px] md:-mr-28 md:-mt-8 -z-10 top-0 '/>
+<Image src={bg} alt='' width={500} height={500} className='relative w-[450px] sm:w-[1000px] sm:h-[400px] md:w-[800px] md:h-[500px] md:-mt-8 -z-10 top-0 '/>
 
 <div className='flex flex-row'>
 
@@ -65,13 +65,14 @@ export default function Home() {
 
 
 </div>
+
 <div className="mt-24 md:-mt-10">
 <AbtTheme/>
 </div>
 <FoodCategory/>
 <ChooseUs/>
 <FoodMenu/>
-<Image src={side1} alt='' width={100} height={100} className='relative md:left-[1160px] left-[180px] top-12'/>
+{/* <Image src={side1} alt='' width={100} height={100} className='relative md:left-[1160px] left-[180px] top-12'/> */}
 <Member />
 
 {/* testimonials  */}

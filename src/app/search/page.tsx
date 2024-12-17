@@ -25,7 +25,7 @@ export default function Search() {
 <p className='p-2 text-gray-700'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     <br /> Lorem Ipsum has been the industry's
 standard dummy </p>
-  <Button><Link href='/'>Go to Home</Link></Button>
+  <Button><Link href='/'>Go Back to Home</Link></Button>
 
 </div>
 

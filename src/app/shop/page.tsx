@@ -26,10 +26,10 @@ export default function Shop() {
  <Link href='./../shop' className='text-white'> Shop</Link></div>
 </div>
 
-{/* search options  */}
-<div>
-<h1 className='text-2xl md:text-4xl -mt-16 md:mt-20 text-center text-green-800' id='myfont'>
-  <i className='bx bx-store text-green-800 md:text-5xl text-2xl p-2'></i>Our Shop</h1>
+{/* search options */}
+<div className='' >
+<h1 className='text-2xl md:text-4xl -mt-16 md:mt-20 text-center text-green-800 ' id='myfont'>
+  <i className='bx bx-store text-green-800 md:text-5xl text-2xl pl-2 pr-2 mt-2 '></i>Our Shop</h1>
 </div>
    <div className='md:p-14 ml-4 md:ml-32'>
     <label>Sort By:</label>

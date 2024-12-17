@@ -32,7 +32,7 @@ export default function AbtTheme() {
 {/* text section */}
 
 
-<div className=' md:ml-28 ml-3 -mt-10 '>
+<div className=' md:ml-20 lg:ml-32 ml-3 -mt-10 '>
 <h2 id='myfont' className='text-green-800 md:mt-40'> About Us <hr className='md:w-10 w-5 -mt-5 md:ml-32 ml-20 border border-green-800'/></h2>
 <h1 className='flex flex-row md:text-4xl text-1xl md:font-bold font-semibold mt-4 md:mt-10'>Enjoy Healthy Life 
  <br  /> & Tasty Food.  </h1>
@@ -40,7 +40,7 @@ export default function AbtTheme() {
 Lorem Ipsum is simply dummy text of dummy text of the printing and type setting industry.Lorem Ipsum is simply
  dummy text of dummy text of the printing and type setting industry. </p>
 
-<div className='grid grid-cols-1 md:grid-cols-2  mt-5 md:ml-14 ml-2'>
+<div className='grid grid-cols-1 md:grid-cols-2 md:gap-32  mt-5 md:ml-2 ml-2 lg:ml-5'>
   <Button >Show more</Button> <Button variant={'ghost'}>Watch Videos</Button> </div>
 </div>
 

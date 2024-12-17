@@ -12,6 +12,7 @@ import Image from 'next/image'
 export default function Member() {
   return (
    <div className='w-full h-auto mb-10 data-aos="fade-up-right"'>
+    <h1 className='text-green-700  text-2xl md:text-5xl text-center p-1 sm:p-3 md:p-5' id='myfont'>Our Members</h1>
     <div className='bg-green-500 md:h-[350px] h-[100px] '>
     <Image src={abt1} alt="" width={500} height={500} className='w-80 h-80 md:ml-[450px]  opacity-20 '/>
     </div>
