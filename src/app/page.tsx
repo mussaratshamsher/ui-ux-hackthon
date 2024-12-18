@@ -79,7 +79,7 @@ export default function Home() {
 <h2 id='myfont' className='text-green-800 mt-4 md:mt-28 mb-10 text-center'> Testimonials </h2>
 
 <h1 className='text-center md:text-2xl text-1xl font-semibold'>What our Client are saying</h1>
-<div className='md:w-[600px] md:h-[400px] 2xl:w-[800px] w-[270px] h-auto mt-20 ml-5  md:ml-[100px] lg:ml-[300px] mb-10 2xl:ml-[900px]' 
+<div className='md:w-[600px] md:h-[400px] 2xl:w-[800px] w-[270px] h-auto mt-20 ml-10  md:ml-[100px] lg:ml-[300px] mb-10 2xl:ml-[900px]' 
 id='border'>
 <Image src={clientest} alt='' width={500} height={500} className=' absolute w-20 h-20 md:ml-[270px] ml-20 -mt-10 2xl:ml-[350px]'/>
 <br />
