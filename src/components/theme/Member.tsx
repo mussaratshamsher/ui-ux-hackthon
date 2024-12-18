@@ -11,71 +11,69 @@ import Image from 'next/image'
 
 export default function Member() {
   return (
-   <div className='w-full h-auto mb-10 data-aos="fade-up-right"'>
-    <h1 className='text-green-700  text-2xl md:text-5xl text-center p-1 sm:p-3 md:p-5' id='myfont'>Our Members</h1>
-    <div className='bg-green-500 md:h-[350px] h-[100px] '>
-    <Image src={abt1} alt="" width={500} height={500} className='w-80 h-80 md:ml-[450px]  opacity-20 '/>
+   <div className=' h-auto mb-10 data-aos="fade-up-right"'>
+    <h1 className='text-green-700 text-2xl md:text-5xl text-center p-1 sm:p-3 md:p-5' id='myfont'>Our Members</h1>
+    <div className='bg-green-500 md:h-[350px] h-[100px] md:ml-20 lg:ml-0'>
+    <Image src={abt1} alt="" width={500} height={500} className='w-80 h-80 2xl:ml-[1100px] md:ml-[200px] lg:ml-[450px]  opacity-20 '/>
     </div>
     
-    <div className='grid md:grid-cols-4 grid-cols-1 p-10 md:gap-5 gap-2 -mt-28 z-1 '>
+    <div className='grid md:grid-cols-2 lg:grid-cols-4 grid-cols-1 p-10 md:gap-5 md:ml-20 lg:ml-5
+     gap-2 -mt-28 z-1 2xl:ml-40'>
     
     {/* member 1 */}
-    <div className='bg-slate-100  animate animated animate__backInLeft animte_delay-2s'>
-    <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64'/>
+    <div className=' animate animated animate__backInLeft animte_delay-2s border shadow w-60 lg:w-64 xl:w-72 2xl:w-[380px] 2xl:h-[450px]'>
+    <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64 xl:w-72 2xl:w-96'/>
     
-    <div className='flex flex-col align-top -mt-56 md:ml-60 ml-40'>
+    <div className='flex flex-col align-top -mt-56 md:ml-60 ml-40 '>
     <i className='bx bxl-facebook text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
     <i className='bx bxl-instagram text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
     <i className='bx bxl-twitter text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
     <i className='bx bxl-youtube text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
     </div>
-    
-    <h1 className='text-center font-bold text-xl mt-16'>Moon Henry</h1>
+    <h1 className='text-center font-bold text-xl mt-16 2xl:mt-20'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
     
     {/* member 2 */}
-    <div className='bg-slate-100 animate animated animate__backInLeft animte_delay-2s'>
-    <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64'/>
+    <div className=' animate animated animate__backInLeft animte_delay-2s border shadow w-60 lg:w-64 xl:w-72 
+     2xl:w-[380px] 2xl:h-[450px]'>
+    <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64 2xl:w-96'/>
     
-    <div className='flex flex-col align-top  -mt-60 md:ml-60 ml-40'>
-    <i className='bx bxl-facebook text-black bg-white hover:bg-green-600 hover:text-white md:p-4 p-2'></i>
-    <i className='bx bxl-instagram text-black bg-white hover:bg-green-600 hover:text-white md:p-4 p-2'></i>
-    <i className='bx bxl-twitter text-black bg-white hover:bg-green-600 hover:text-white md:p-4 p-2'></i>
-    <i className='bx bxl-youtube text-black bg-white hover:bg-green-600 hover:text-white md:p-4 p-2'></i>
+    <div className='flex flex-col align-top -mt-56 md:ml-60 ml-40 '>
+    <i className='bx bxl-facebook text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
+    <i className='bx bxl-instagram text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
+    <i className='bx bxl-twitter text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
+    <i className='bx bxl-youtube text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
     </div>
-    
-    <h1 className='text-center font-bold text-xl mt-16'>Moon Henry</h1>
-    <p className='text-center '>Founder</p>
+    <h1 className='text-center font-bold text-xl mt-16 2xl:mt-20'>Moon Henry</h1>
+    <p className='text-center'>Founder</p>
     </div>
     
     {/* member 3 */}
-    <div className='bg-slate-100 animate animated animate__backInLeft animte_delay-2s'>
-    <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64' />
+    <div className=' animate animated animate__backInLeft animte_delay-2s border shadow w-60 lg:w-64 xl:w-72  2xl:w-[380px] 2xl:h-[450px]'>
+    <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64 2xl:w-96'/>
     
-    <div className='flex flex-col align-top -mt-60 md:ml-60 ml-40'>
-    <i className='bx bxl-facebook text-black hover:bg-green-600 hover:text-white p-4'></i>
-    <i className='bx bxl-instagram text-black hover:bg-green-600 hover:text-white p-4'></i>
-    <i className='bx bxl-twitter text-black hover:bg-green-600 hover:text-white p-4'></i>
-    <i className='bx bxl-youtube text-black hover:bg-green-600 hover:text-white p-4'></i>
+    <div className='flex flex-col align-top -mt-56 md:ml-60 ml-40 '>
+    <i className='bx bxl-facebook text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
+    <i className='bx bxl-instagram text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
+    <i className='bx bxl-twitter text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
+    <i className='bx bxl-youtube text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
     </div>
-    
-    <h1 className='text-center font-bold text-xl mt-16'>Moon Henry</h1>
+    <h1 className='text-center font-bold text-xl mt-16 2xl:mt-20'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
     
     {/* member 4 */}
-    <div className='bg-slate-100 animate animated animate__backInLeft animte_delay-2s'>
-    <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64'/>
+    <div className=' animate animated animate__backInLeft animte_delay-2s border shadow w-60 lg:w-64 xl:w-72  2xl:w-[380px] 2xl:h-[450px]'>
+    <Image src={member} alt="" width={500} height={500} className='md:w-80 md:h-80 w-72 h-64 2xl:w-96'/>
     
-    <div className='flex flex-col align-top  -mt-60 md:ml-60 ml-40'>
-    <i className='bx bxl-facebook text-black hover:bg-green-600 hover:text-white p-4'></i>
-    <i className='bx bxl-instagram text-black hover:bg-green-600 hover:text-white p-4'></i>
-    <i className='bx bxl-twitter text-black hover:bg-green-600 hover:text-white p-4'></i>
-    <i className='bx bxl-youtube text-black hover:bg-green-600 hover:text-white p-4'></i>
+    <div className='flex flex-col align-top -mt-56 md:ml-60 ml-40 '>
+    <i className='bx bxl-facebook text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
+    <i className='bx bxl-instagram text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
+    <i className='bx bxl-twitter text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
+    <i className='bx bxl-youtube text-black hover:bg-green-600 hover:text-white p-3 mt-1'></i>
     </div>
-    
-    <h1 className='text-center font-bold text-xl mt-16'>Moon Henry</h1>
+    <h1 className='text-center font-bold text-xl mt-16 2xl:mt-20'>Moon Henry</h1>
     <p className='text-center'>Founder</p>
     </div>
 

@@ -56,7 +56,7 @@ export default function Footer() {
 <div className='grid4 md:ml-0'>
 <h1 className='font-bold text-1xl mb-5'>Instagram Gallery</h1>  
 
-<div className='grid grid-cols-3 grid-rows-2 md:gap-2 gap-2'>
+<div className='grid grid-cols-3 grid-rows-2 gap-2 md:gap-2 2xl:gap-20 '>
 
 <Image src={f1} alt='' width={100} height={100} className="transition-all duration-300 hover:scale-110"/>
 <Image src={f3} alt='' width={100} height={100} className="transition-all duration-300 hover:scale-110"/>

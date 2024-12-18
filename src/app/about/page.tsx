@@ -33,30 +33,30 @@ export default function page() {
 <div className='text-center text-black'>
 
   <h1 className='text-4xl mb-5 mt-5 '><b>Why Choose Us</b></h1>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+  <p className='p-2 md:p-3 2xl:px-10 2xl:py-5 2xl:text-lg'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
      make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
      typesetting, remaining essentially unchanged. not only five centuries, but also the leap into electronic 
      typesetting, remaining essentially unchanged.</p>
-<Image src={choose} alt='' width={500} height={500} className='w-full md:h-[250px] h-[100px] md:mt-10 md:mb-10 mt-5'/>
+<Image src={choose} alt='' width={500} height={500} className='w-full h-[100px] md:h-[250px] 2xl:h-[450px] md:mt-10 md:mb-10 mt-5'/>
 
 </div>
 
 <div className='grid md:grid-cols-3 grid-cols-1 mt-5 md:pl-32 md:pr-32 '>
 
   <div className='text-center'>
-  <Image src={Student} alt='' width={500} height={500} className='w-20 h-20 ml-32' />
-<h1 className='text-2xl font-bold'>Our Chef</h1>
+  <Image src={Student} alt='' width={500} height={500} className='w-20 h-20 ml-32 md:ml-14 lg:ml-24' />
+<h1 className='text-2xl font-bold'> Home Chef</h1>
 <p>There are many variations of passages of Lorem Ipsum available, but the majority </p>
   </div>
   <div className='text-center'>
-  <Image src={Coffee} alt='' width={500} height={500} className='w-20 h-20 ml-32' />
-<h1 className='text-2xl font-bold'>Our Chef</h1>
+  <Image src={Coffee} alt='' width={500} height={500} className='w-20 h-20 ml-32 md:ml-14 lg:ml-24 2xl:ml-40' />
+<h1 className='text-2xl font-bold'>Quality food</h1>
 <p>There are many variations of passages of Lorem Ipsum available, but the majority </p>
   </div>
   <div className='text-center'>
-  <Image src={Person} alt='' width={500} height={500} className='w-20 h-20 ml-32' />
-<h1 className='text-2xl font-bold'>Our Chef</h1>
+  <Image src={Person} alt='' width={500} height={500} className='w-20 h-20 ml-32 md:ml-14 lg:ml-24 2xl:ml-40' />
+<h1 className='text-2xl font-bold'>Home Delivery</h1>
 <p>There are many variations of passages of Lorem Ipsum available, but the majority </p>
   </div>
 
@@ -70,16 +70,16 @@ export default function page() {
 
 <div className=' h-auto mb-20' >
 
-<h2 id='myfont' className='text-green-800 mb-10 ml-10'> Testimonials 
-  <hr className='md:w-10 w-5 -mt-5 ml-40 border border-green-800'/></h2>
+<h2 id='myfont' className='text-green-800 mt-4 md:mt-28 mb-10 text-center'> Testimonials </h2>
 
-<h1 className='text-center md:text-2xl text-1xl font-semibold'>What our Clients are saying</h1>
-<div className='md:w-[600px] md:h-[400px]  w-[270px] h-auto mt-20 ml-5 md:ml-[300px] mb-10' id='border'>
-<Image src={clientest} alt='' width={500} height={500} className=' absolute w-20 h-20 md:ml-[270px] ml-20 -mt-10'/>
+<h1 className='text-center md:text-2xl text-1xl font-semibold'>What our Client are saying</h1>
+<div className='md:w-[600px] md:h-[400px] 2xl:w-[800px] w-[270px] h-auto mt-20 ml-5  md:ml-[100px] lg:ml-[300px] mb-10 2xl:ml-[900px]' 
+id='border'>
+<Image src={clientest} alt='' width={500} height={500} className=' absolute w-20 h-20 md:ml-[270px] ml-20 -mt-10 2xl:ml-[350px]'/>
 <br />
 <h2 className='font-mono text-center text-3xl mt-10' id='clr'>99</h2>
 
-<p className='p-10 pt-4 pb-4'>It is a long established fact that a reader will be distracted by the readable content of a page
+<p className='p-7 pt-0 pb-4'>It is a long established fact that a reader will be distracted by the readable content of a page
    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of 
    letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
 
@@ -90,15 +90,9 @@ export default function page() {
 <h1 className='text-center text-2xl font-bold mt-5 mb-5'>Ali Hassan</h1>
 <p className='text-center mt-5 mb-5'> Food Specialist</p>
 
-
+</div>
 </div>
 
-
-{/* food Menu  */}
-
-<FoodMenu/>
-
-</div>
 
 
 

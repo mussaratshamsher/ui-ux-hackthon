@@ -21,11 +21,11 @@ export default function Contact() {
 </div>
 
       <h1 className='md:text-2xl text-1xl text-center md:mt-20 -mt-20 font-bold text-green-800' id='myfont'>Contact Us</h1>
-      <h1 className='md:text-3xl text-2xl md:ml-14 ml-2 mt-5 font-bold font-serif'>Contact for any Query</h1>
+      <h1 className='md:text-3xl text-2xl md:ml-14 ml-2 mt-5 font-bold font-serif 2xl:ml-[470px]'>Contact for any Query</h1>
 
-      <div className=' grid md:grid-cols-2 grid-cols-1 mt-5 m-5 gap-2'>
+      <div className=' grid md:grid-cols-2 grid-cols-1 mt-5 m-5 2xl:ml-96 gap-2'>
 {/* maingrid 1 */}
-        <div className='md:ml-20 ml-2'>
+        <div className='md:ml-20 ml-2 2xl:text-4xl '>
          
           <div> <h1 className='md:text-2xl text-1xl md:p-2' id='clr2'> Booking <hr className='md:w-20 w-12 border-gray-400 border'/></h1> 
          <div className='flex mt-2'> <Mail className='' id='clr2'/><Link href="">book@foodtuck.com</Link>  </div>
@@ -37,17 +37,17 @@ export default function Contact() {
         <div className='flex mt-2'> <Mail className='' id='clr2'/><Link href="">tech@foodtuck.com</Link> </div>
         </div></div>
 {/* maingrid 2 */}
-         <div className='ml-2 box-border shadow-lg mb-2 p-4'>
+         <div className='ml-2 box-border 2xl:mr-60 shadow-lg mb-2 p-4'>
 
          <h1 className='text-2xl mt-5 mb-5 ml-2 md:hidden'> Send Your Message<hr className='w-60 border-gray-400 border'/></h1>
 
 
-          <input type="text" placeholder='your name here' className='md:w-[248px] w-[230px] p-2 h-14 border border-green-800 rounded-md mr-2 mb-5'/> 
-          <input type="text" placeholder='your email here' className='md:w-[246px] w-[230px] p-2 h-14 border border-green-800 rounded-md' /> <br />
+          <input type="text" placeholder='your name here' className='2xl:w-[350px] lg:w-[200px] md:w-[150px]  w-[230px] p-2 h-14 border border-green-800 rounded-md mr-2 mb-5'/> 
+          <input type="text" placeholder='your email here' className='2xl:w-[350px] lg:w-[200px] md:w-[150px] w-[230px] p-2 h-14 border border-green-800 rounded-md' /> <br />
           
-          <input type="text" placeholder='Subject ' className='md:w-[500px] w-[230px] h-14 p-2 border border-green-800 rounded-md mt-4'/> <br />
+          <input type="text" placeholder='Subject ' className='lg:w-[410px] 2xl:w-[700px] md:w-[310px] w-[230px] h-14 p-2 border border-green-800 rounded-md mt-4 md:mt-2'/> <br />
 
-          <textarea rows={4} id=""  placeholder='Message' className='md:w-[500px] w-[230px] p-2 h-32 border border-green-800 rounded-md mt-4'></textarea> <br />
+          <textarea rows={4} id=""  placeholder='Message' className=' lg:w-[410px] 2xl:w-[700px] md:w-[310px] w-[230px] p-2 h-32 border border-green-800 rounded-md mt-4'></textarea> <br />
 
           <Button className='mb-5'>Send</Button>
          </div>

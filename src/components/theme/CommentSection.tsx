@@ -50,14 +50,14 @@ const CommentSection: React.FC = () => {
       </Button>  
       {isVisible && ( // Conditional rendering  
         <div className='md:-ml-44'>  
-          <h2 className="font-bold">Comments</h2>  
+          <h2 className="font-bold md:ml-5">Comments</h2>  
           <div className="comments-list">  
             {comments.length === 0 ? (  
               <p className='text-sm'>No comments yet. Be the first to comment!</p>  
             ) : (  
               comments.map((comment, index) => (  
                 <div key={index} className="comment flex flex-col justify-between items-center">   
-                  <p className='w-36 md:w-[400px] h-auto p-2 border rounded-sm shadow-sm bg-green-200 text-sm'>  
+                  <p className='w-36 md:w-[300px] md:-ml-16 lg:w-[400px] h-auto p-2 border rounded-sm shadow-sm bg-green-200 text-sm'>  
                     {comment}  
                   </p>  
                   <div className='flex flex-row gap-2 md:gap-5'>  
@@ -70,7 +70,7 @@ const CommentSection: React.FC = () => {
           </div>  
           <form onSubmit={handleCommentSubmit} className="flex flex-col mt-2">  
             <textarea  
-              className="border p-2 w-36 md:w-[500px]"  
+              className="border p-2 w-36 md:w-[300px] lg:w-[500px]"  
               value={commentText}  
               onChange={(e: ChangeEvent<HTMLTextAreaElement>) => setCommentText(e.target.value)}  
               placeholder="Add a comment..."   

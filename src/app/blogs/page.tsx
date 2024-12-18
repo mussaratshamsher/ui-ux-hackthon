@@ -36,7 +36,7 @@ export default function blogs() {
 
 {/* landing page */}
 <div className=' h-[200px] text-white' >
-<h1 className='absolute mt-10 md:mt-20 text-2xl md:text-5xl md:ml-[500px] text-white'>Blogs List</h1>
+<h1 className='absolute mt-10 md:mt-20 text-2xl md:text-5xl lg:ml-[500px] text-white'>Blogs List</h1>
 <Image src={themebg} alt='' width={500} height={500} className='w-full md:h-[250px] h-[100px] relative -z-10'/>
 <div className='flex flex-row justify-center -mt-20 md:ml-40 '><Link href='/'>Home<i className='bx bx-chevron-right '></i>  </Link>
  <Link href='./../blogs' className='text-green-700'> Blogs</Link></div>
@@ -45,14 +45,15 @@ export default function blogs() {
 
 {/* blog layout  */}
 
-<div className='grid grid-cols-2 md:grid-cols-3  md:ml-40 md:mr-40 px-2  md:py-10 '>  
+<div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-3 2xl:grid-cols-5 2xl:ml-40 2xl:mr-60
+ lg:ml-20 lg:mr-20 xl:ml-40 xl:mr-40 px-2 md:gap-3 lg:gap-5 md:px-5 lg:py-10 '>  
   {/* grid 1 */}  
   
-  <div className='col-span-1 md:col-span-2 md:gap-5 gap-1 '>  
+  <div className='col-span-1 md:col-span-2 lg:col-span-2 2xl:col-span-3 md:gap-5 gap-1 '>  
     {/* Blog 1 */}  
     <div className='mb-2'>  
       <Image src={blog1} alt="Chocolate Truffle Cake" width={500} height={500} 
-      className='w-36 h-20 md:w-[500px] md:h-[300px] scale-100 transition-all duration-300 hover:scale-90'/>  
+      className='w-36 h-20 md:w-[500px] md:h-[300px] 2xl:w-[1200px] 2xl:h-[500px] scale-100 transition-all duration-300 hover:scale-90'/>  
       <h2 className='mt-2 text-xs'>  
         <i className='bx bx-box text-green-700'></i>Jan 14, 2022 /   
         <i className='bx bx-chat text-green-700'></i> 3 /   
@@ -70,7 +71,7 @@ export default function blogs() {
     {/* Blog 2 */}  
     <div className='mb-2'>  
       <Image src={blog2} alt="Chocolate Truffle Cake" width={500} height={500} 
-      className='w-36 h-20 md:w-[500px] md:h-[300px] scale-100 transition-all duration-300 hover:scale-90'/>  
+      className='w-36 h-20 md:w-[500px] md:h-[300px] 2xl:w-[1200px] 2xl:h-[500px] scale-100 transition-all duration-300 hover:scale-90'/>  
       <h2 className='mt-2 text-xs'>  
         <i className='bx bx-box text-green-700'></i>Jan 14, 2022 /   
         <i className='bx bx-chat text-green-700'></i> 3 /   
@@ -88,7 +89,7 @@ export default function blogs() {
     {/* Blog 3 */}  
     <div className='mb-2'>  
       <Image src={blog3} alt="Chocolate Truffle Cake" width={500} height={500} 
-      className='w-36 h-20 md:w-[500px] md:h-[300px] scale-100 transition-all duration-300 hover:scale-90'/>  
+      className='w-36 h-20 md:w-[500px] md:h-[300px] 2xl:w-[1200px] 2xl:h-[500px] scale-100 transition-all duration-300 hover:scale-90'/>  
       <h2 className='mt-2 text-xs'>  
         <i className='bx bx-box text-green-700'></i>Jan 14, 2022 /   
         <i className='bx bx-chat text-green-700'></i> 3 /   
@@ -106,7 +107,7 @@ export default function blogs() {
     {/* Blog 4 */}  
     <div className='mb-2'>  
       <Image src={blog4} alt="Chocolate Truffle Cake" width={500} height={500} 
-      className='w-36 h-20 md:w-[500px] md:h-[300px] scale-100 transition-all duration-300 hover:scale-90'/>  
+      className='w-36 h-20 md:w-[500px] md:h-[300px] 2xl:w-[1200px] 2xl:h-[500px] scale-100 transition-all duration-300 hover:scale-90'/>  
       <h2 className='mt-2 text-xs'>  
         <i className='bx bx-box text-green-700'></i>Jan 14, 2022 /   
         <i className='bx bx-chat text-green-700'></i> 3 /   
@@ -124,13 +125,13 @@ export default function blogs() {
 </div>
 
   {/* grid 2 */}  
-  <div className=' h-fit col-span-1 border shadow-md md:p-5 p-1'>  
+  <div className=' h-fit col-span-1 md:col-span-2 lg:col-span-1 2xl:col-span-2 border shadow-md md:p-2 lg:p-5 p-1'>  
 {/* search bar  */}
-    <h1 className='flex'><input type="text" placeholder='Search Product' className='bg-green-200 w-24 md:w-60  text-xs md:text-sm md:p-3 p-1'/>
+    <h1 className='flex'><input type="text" placeholder='Search Product' className='bg-green-200 w-24 md:w-60 2xl:w-[600px] text-xs md:text-sm md:p-3 p-1'/>
       <i className='bx bx-search  bg-green-800 text-white p-2 md:p-4 '></i></h1> 
 {/* User bloger  */}
-      <div className='flex flex-col justify-center items-center border shadow-sm p-2 mt-2 md:mt-10 text-xs md:text-sm  text-gray-500'>
-        <Image src={img} alt='' width={500} height={500} className='w-8 h-8 md:w-10 md:h-10'/>
+      <div className='flex flex-col justify-center items-center border shadow-sm p-2 mt-2 md:mt-10 2xl:mt-20 2xl:text-xl text-xs md:text-sm text-gray-500'>
+        <Image src={img} alt='' width={500} height={500} className='w-8 h-8 md:w-10 md:h-10 2xl:w-20 2xl:h-20'/>
         <h1 className='text-black '><b>Prince Miyako</b></h1>
         <p >Blogger</p>
         <p className='text-green-800'>
@@ -143,11 +144,11 @@ export default function blogs() {
           <i className='bx bxl-instagram hover:text-green-700'></i><i className='bx bxl-pinterest hover:text-green-700'></i></p>
       </div> 
  {/* Recent post  */}
-    <div className='flex flex-col justify-center items-center border shadow-sm p-1 md:p-2 mt-2 md:mt-7 text-sm text-gray-500'>
+    <div className='flex flex-col justify-center items-center border shadow-sm p-1 md:p-2 mt-2 md:mt-7 text-sm text-gray-500 2xl:mt-20 2xl:text-xl'>
     <h1 className='font-bold mt-1 md:mt-2 mb-2 md:mb-3'>Recent Post</h1>
     {/* product 1  */}
     <div className='flex flex-row gap-1 md:gap-3'>
-<Image src={blogf1} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16' id='blog'/>
+<Image src={blogf1} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16 2xl:w-40 2xl:h-24' id='blog'/>
           <div className=' '>
            <p>June22, 2020</p> 
           <p className='text-gray-700 mt-2'>Lorem ipsum dolor sit cing elit, sed do.</p>
@@ -156,7 +157,7 @@ export default function blogs() {
           </div>
 {/* product  2 */}
 <div className='flex flex-row gap-1 md:gap-3 mt-2'>
-<Image src={blogf2} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16 ' id='blog'/>
+<Image src={blogf2} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16 2xl:w-40 2xl:h-24' id='blog'/>
           <div className=' '>
            <p>June22, 2020</p> 
           <p className='text-gray-700 mt-2'>Lorem ipsum dolor sit cing elit, sed do.</p>
@@ -165,7 +166,7 @@ export default function blogs() {
            </div>
 {/* product  3 */}
 <div className='flex flex-row gap-1 md:gap-3 mt-2'>
-<Image src={blogf3} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16' id='blog'/>
+<Image src={blogf3} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16 2xl:w-40 2xl:h-24' id='blog'/>
           <div className=' '>
            <p>June22, 2020</p> 
           <p className='text-gray-700 mt-2'>Lorem ipsum dolor sit cing elit, sed do.</p>
@@ -174,7 +175,7 @@ export default function blogs() {
            </div>
 {/* product  4 */}
 <div className='flex flex-row gap-1 md:gap-3 mt-2'>
-<Image src={blogf4} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16' id='blog'/>
+<Image src={blogf4} alt='' width={500} height={500} className='w-7 h-7 md:w-20 md:h-16 2xl:w-40 2xl:h-24' id='blog'/>
           <div className=' '>
            <p>June22, 2020</p> 
           <p className='text-gray-700 mt-2'>Lorem ipsum dolor sit cing elit, sed do.</p>
@@ -185,7 +186,7 @@ export default function blogs() {
  </div>
 
 {/* Filter By Menu  */}
-<div className='border shadow-sm p-2 mt-2 md:mt-7 text-xs md:text-sm font-bold'>
+<div className='border shadow-sm p-2 mt-2 md:mt-7 text-xs md:text-sm font-bold 2xl:mt-20 2xl:text-xl'>
 <h1 className='mm:mt-2 md:mb-5 mb-1'>Filter By Menu</h1>
 {/* menu 1  */}
 <div className='grid grid-cols-4 mt-1'>
@@ -215,11 +216,11 @@ export default function blogs() {
 </div>
 
 {/* popular tags  */}
-<div className='border shadow-sm p-2 mt-2 md:mt-7 text-xs md:text-sm '>
+<div className='border shadow-sm p-2 mt-2 md:mt-7 text-xs md:text-sm 2xl:mt-20 2xl:text-xl'>
 
 <h1 className='font-bold md:mt-2 md:mb-3 mb-2'> Popular Tags</h1>
 
-<div className='grid grid-cols-2 md:grid-cols-3 gap-1'>
+<div className='grid grid-cols-2 md:grid-cols-3 lg:gap-2 gap-1 2xl:gap-5'>
 <p className='border shadow-sm p-1 md:p-2 hover:bg-green-200'>Sandwich </p>
 <p className='border shadow-sm p-1 md:p-2 hover:bg-green-200'>Tikka </p>
 <p className='border shadow-sm p-1 md:p-2 hover:bg-green-200'> Bbq</p>
@@ -237,17 +238,17 @@ export default function blogs() {
 </div>
 
 {/* Photo Gallery  */}
-<div className='border shadow-sm p-2 mt-2 md:mt-7 text-xs md:text-sm '>
+<div className='border shadow-sm p-2 mt-2 md:mt-7 text-xs md:text-sm 2xl:mt-20 2xl:text-xl'>
 
   <h1 className='font-bold mt-1 md:mt-2 mb-2 md:mb-5'>Photo Gallery</h1>
   <div className='grid grid-cols-3 grid-rows-2 gap-1'>
 
-<Image src={f1} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
-<Image src={f3} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
-<Image src={f2} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
-<Image src={f4} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
-<Image src={f5} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
-<Image src={f6} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90'/>
+<Image src={f1} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90 2xl:w-96'/>
+<Image src={f3} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90 2xl:w-96'/>
+<Image src={f2} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90 2xl:w-96'/>
+<Image src={f4} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90 2xl:w-96'/>
+<Image src={f5} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90 2xl:w-96'/>
+<Image src={f6} alt='' width={100} height={100} className='scale-100 transition-all duration-300 hover:scale-90 2xl:w-96'/>
 
 </div>
 </div>
@@ -255,11 +256,11 @@ export default function blogs() {
 {/* Links  */}
 <div className='border shadow-sm p-2 mt-2 md:mt-7 text-sm '>
 <h1 className='font-bold mt-2'>Follow Us</h1>
-<p className='flex gap-2 text-black mt-2 md:p-3 p-2'>
-  <i className='bx bxl-twitter p-1 md:p-3 bg-green-200 hover:bg-green-800 hover:text-white'></i>
-<i className='bx bxl-pinterest p-1 md:p-3 bg-green-200 hover:bg-green-800 hover:text-white'></i>
- <i className='bx bxl-instagram p-1 md:p-3 bg-green-200 hover:bg-green-800 hover:text-white'></i>
- <i className='bx bxl-facebook p-1 md:p-3 bg-green-200 hover:bg-green-800 hover:text-white'></i>
+<p className='flex gap-2 lg:gap-5 2xl:gap-10 text-black mt-2 md:p-3 p-2'>
+  <i className='bx bxl-twitter p-1 md:p-3 2xl:p-7 bg-green-200 hover:bg-green-800 hover:text-white'></i>
+<i className='bx bxl-pinterest p-1 md:p-3 2xl:p-7 bg-green-200 hover:bg-green-800 hover:text-white'></i>
+ <i className='bx bxl-instagram p-1 md:p-3 2xl:p-7 bg-green-200 hover:bg-green-800 hover:text-white'></i>
+ <i className='bx bxl-facebook p-1 md:p-3 2xl:p-7 bg-green-200 hover:bg-green-800 hover:text-white'></i>
  </p>
 </div>
 

@@ -27,12 +27,11 @@ export default function Chefs() {
 </div>
 
 {/* title  */}
-<h2 id='myfont' className='text-green-800 mt-10 md:mt-20 ml-5 text-center'> Meet Our Chef 
-    <hr className='md:w-10 w-5 md:ml-[600px] ml-20 border border-green-800'/></h2>
+<h2 id='myfont' className='text-green-800 mt-10 md:mt-20 ml-5 text-center 2xl:mt-40'> Meet Our Team </h2>
 
 {/* chefs  */}
 
-<div className='grid grid-rows-1 md:grid-cols-4 md:grid-rows-3 md:p-10 ml-5 md:gap-5 gap-2 mt-3 md:mt-5 '>
+<div className='grid grid-rows-1 md:grid-cols-4 md:grid-rows-3 2xl:grid-cols-6 md:p-10 2xl:mt-20 2xl:-mb-80 ml-5 md:gap-5 gap-2 mt-3 md:mt-5 '>
 
   {/* row 1 */}
 

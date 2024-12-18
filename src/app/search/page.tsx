@@ -12,10 +12,10 @@ export default function Search() {
     <div>
 {/* landing page */}
 <div className=' h-[200px] text-white' >
-<h1 className='absolute mt-10 md:mt-20 text-2xl md:text-5xl md:ml-[500px] text-white'>Blogs List</h1>
+<h1 className='absolute mt-10 md:mt-20 text-2xl md:text-5xl ml-4 md:ml-[500px] text-white'>404 Error</h1>
 <Image src={themebg} alt='' width={500} height={500} className='w-full md:h-[250px] h-[100px] relative -z-10'/>
 <div className='flex flex-row justify-center -mt-20 md:ml-40 '><Link href='/'>Home<i className='bx bx-chevron-right '></i>  </Link>
- <Link href='./../blogs' className='text-green-700'> Blogs</Link></div>
+ <Link href='./../search' className='text-green-700'> 404</Link></div>
 </div>
 
 <div className=' w-full md:ml-16 -mt-10 md:mt-20 text-center md:p-10 p-2'>

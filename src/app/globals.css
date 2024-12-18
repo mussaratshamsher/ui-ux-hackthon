@@ -89,7 +89,6 @@ body{
 #banner {  
   overflow: hidden;  
   white-space: nowrap; 
-  width: auto;
   background-color: black;  
   color: white; 
   height: 40px;  
@@ -97,7 +96,7 @@ body{
   align-items: center; 
 }  
 
-#scrolling-text {  
+#scrolling-text { 
   display: inline-block;   
   animation: scroll 10s linear infinite;  
   font-size: 0.875rem;  

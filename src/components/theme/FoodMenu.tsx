@@ -20,10 +20,10 @@ export default function FoodMenu() {
                 <li className='hover:text-green-800 hover:underline'>Snack</li>
               
              </ul>
-             <hr className='w-[200px] md:w-[900px] ml-4 mr-3 md:ml-28 md:mr-28 border border-gray-500 mb-10'/>
+             <hr className='w-[200px] md:w-[500px] lg:w-[900px] 2xl:w-[2300px] ml-4 mr-3 md:ml-28 md:mr-28 border border-gray-500 mb-10'/>
 
 {/* Menu List  */}
-<div className=' grid grid-cols-1 md:grid-cols-2 md:grid-rows-4 text-black md:mt-10 mt-4 ml-2 md:ml-5 md:mr-5 md:p-10'>
+<div className=' grid grid-cols-1 md:grid-cols-2 md:grid-rows-4 text-black md:mt-10 mt-4 ml-2 md:ml-5 md:mr-5 md:p-10 2xl:p-0 2xl:pl-96 2xl:pr-60'>
 
 <div className='menu1'>
 <h1 className='hover:text-green-800 text-xl font-bold'> Alder Grilled Chinook Salmon 

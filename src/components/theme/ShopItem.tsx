@@ -15,7 +15,7 @@ export default function ShopItem(props: ShopProps) {
 
     return (  
         <div>  
-            <Image src={image} alt="" width={100} height={100} className='md:w-52 w-20 transition-all duration-300 hover:scale-110'/>  
+            <Image src={image} alt="" width={100} height={100} className=' w-20 md:w-52 2xl:w-80 transition-all duration-300 hover:scale-110'/>  
 
             <h1 className="">   {icons && icons.map((Icon, index) => (  
             <Icon key={index} className="md:inline-block md:-mt-40 mr-1 ml-1 md:ml-8 hover:text-white hover:bg-green-700
