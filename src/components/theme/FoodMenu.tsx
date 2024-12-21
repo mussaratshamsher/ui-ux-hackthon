@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { Button } from '../ui/button'
+import Link from 'next/link'
 
 export default function FoodMenu() {
   return (
@@ -97,16 +98,9 @@ export default function FoodMenu() {
 </div>
 
 
+   </div>
 
-
-
-
-             </div>
-
-             <Button variant={'ghost'} className='md:ml-[500px] ml-10'>View more</Button>
-
-
-
+             <Button variant={'ghost'} className='md:ml-[500px] ml-10'><Link href='./../menu'> View more</Link></Button>
 
         </div>
 

@@ -154,6 +154,7 @@ body{
 } 
 #rotateImage:hover{
   animation-play-state: paused;
+  cursor: pointer;
 }
 
 #back{

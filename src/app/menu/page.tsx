@@ -31,7 +31,7 @@ export default function Menu() {
           {/* Menu  grid 1 */}
 <div className='grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 md:mt-20 mt-5 md:gap-20 md:ml-20 2xl:ml-60 2xl:gap-40 ml-2 mb-2'>
 
-<Image src={menu1} alt='' width={500} height={500} className=' col-span-1 2xl:col-span-2 w-72 md:w-96 2xl:w-[800px] 2xl:h-[650px] ml-2'/>
+<Image src={menu1} alt='' width={500} height={500} className=' col-span-1 2xl:col-span-2 w-72 md:h-96 md:w-96 2xl:w-[800px] 2xl:h-[650px] ml-2'/>
        
         {/* menu item 1  */}
         <div className='grid col-span-2  grid-rows-4 mt-2 '>
@@ -130,13 +130,13 @@ export default function Menu() {
     </div>
             </div> 
 
-<Image src={menu2} alt='' width={500} height={500} className='grid col-span-1 w-72 md:w-96 ml-2 2xl:w-[800px] 2xl:h-[650px] 2xl:mr-80'/>
+<Image src={menu2} alt='' width={500} height={500} className='grid col-span-1 w-72 md:w-96  md:h-96 ml-2 2xl:w-[800px] 2xl:h-[650px] 2xl:mr-80'/>
 
             </div> 
 
  {/* center theme  */}
 <div className='bg-black mt-10  w-72 md:w-full md:h-[450px] lg:h-[250px] lg:w-[1200px] xl:w-[1800px] 2xl:w-[2500px] ml-2 md:ml-10 '>
-<Image src={choose} alt='' width={500} height={500} className='w-72 md:w-full lg:w-[1200px] xl:w-[1800px] 2xl:w-[2500px] md:h-[450px] lg:h-[250px] h-[400px] opacity-20'/>
+<Image src={choose} alt='' width={500} height={500} className='w-72 md:w-full  lg:w-[1200px] xl:w-[1800px] 2xl:w-[2500px] md:h-[450px] lg:h-[250px] h-[400px] opacity-20'/>
     
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-20 text-white absolute md:ml-72 md:-mt-60 lg:-mt-44 -mt-96 ml-28 2xl:ml-[1000px]'>
      <div> 
@@ -169,7 +169,7 @@ export default function Menu() {
            {/* Menu  grid 3 */}
            <div className='grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 md:mt-20 mt-5 md:gap-20 md:ml-20 2xl:ml-60 2xl:gap-40 ml-2 mb-2'>
 
-<Image src={menu3} alt='' width={500} height={500} className=' col-span-1 2xl:col-span-2 w-72 md:w-96 2xl:w-[800px] 2xl:h-[650px] ml-2'/>
+<Image src={menu3} alt='' width={500} height={500} className=' col-span-1 2xl:col-span-2 w-72 md:w-96  md:h-96 2xl:w-[800px] 2xl:h-[650px] ml-2'/>
        
         {/* menu item 1  */}
         <div className='grid col-span-2  grid-rows-4 mt-2 '>
@@ -264,7 +264,7 @@ export default function Menu() {
  </div>
          </div> 
 
-<Image src={menu1} alt='' width={500} height={500} className='grid col-span-1 w-72 md:w-96 ml-2 2xl:w-[800px] 2xl:h-[650px] 2xl:mr-80'/>
+<Image src={menu1} alt='' width={500} height={500} className='grid col-span-1 w-72 md:w-96  md:h-96 ml-2 2xl:w-[800px] 2xl:h-[650px] 2xl:mr-80'/>
 
          </div>  
 
