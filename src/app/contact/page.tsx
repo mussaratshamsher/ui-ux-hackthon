@@ -23,7 +23,7 @@ export default function Contact() {
       <h1 className='md:text-2xl text-1xl text-center md:mt-20 -mt-20 font-bold text-green-800' id='myfont'>Contact Us</h1>
       <h1 className='md:text-3xl text-2xl md:ml-14 ml-2 mt-5 font-bold font-serif 2xl:ml-[470px]'>Contact for any Query</h1>
 
-      <div className=' grid md:grid-cols-2 grid-cols-1 mt-5 m-5 2xl:ml-96 gap-2'>
+      <div className='grid md:grid-cols-2 grid-cols-1 mt-5 m-5 2xl:ml-96 gap-2'>
 {/* maingrid 1 */}
         <div className='md:ml-20 ml-2 2xl:text-4xl '>
          

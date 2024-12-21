@@ -22,12 +22,8 @@ import f4 from '../../../public/images/f4.png'
 import f5 from '../../../public/images/f5.png'
 import f6 from '../../../public/images/f6.png'
 
-
-
-
 import { Button } from '@/components/ui/button'
 import CommentSection from '@/components/theme/CommentSection'
-
 
 
 export default function blogs() {
@@ -264,9 +260,9 @@ export default function blogs() {
  </p>
 </div>
 
-  </div>  
+</div>  
 
-</div>
+    </div>
 
 
     </div>
